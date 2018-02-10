@@ -1,2 +1,2 @@
-# CourtneyDM.github.io
-My Website
+# Responsive-Portfolio
+Responsive Portfolio Homework Assignment
