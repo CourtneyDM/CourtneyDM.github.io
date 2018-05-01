@@ -1,0 +1,48 @@
+/* This is the stylesheet to apply responsive design to media screens with a max width of 768px */
+
+@media screen and (max-width: 768px) {
+    /* Main content */
+    #content {
+        margin-bottom: 50px;
+        height: 50%;
+    }
+    /* End of Main content */
+    /* Form input */
+    #email,
+    #message,
+    #name {
+        width: 100%;
+    }
+    /* End of Form input */
+    /* Portfolio pictures */
+    figure.left,
+    figure.right {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    figcaption {
+        background-color: #4AAAA5;
+        color: #FFF;
+        display: inline-block;
+        font-size: 16px;
+        /* padding-top: 8px;
+        padding-bottom: 8px; */
+        position: relative;
+        text-align: center;
+        top: -60px;
+        width: 250px;
+        margin-left: -3px;
+        z-index: 1;
+    }
+    /* End of Portfolio Pictures */
+    /* Footer */
+    footer {
+        clear: both;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+    }
+    /* End of Footer */
+    /* End of File */
+}
