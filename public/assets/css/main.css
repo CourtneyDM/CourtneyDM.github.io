@@ -13,7 +13,7 @@ header {
     background-image: url("http://via.placeholder.com/1280x400");
     background-color: grey;
     height: 400px;
-    width: 1280px;
+    width: auto;
 }
 
 nav {
