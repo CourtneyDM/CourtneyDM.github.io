@@ -1,0 +1,74 @@
+* {
+    /* border: 1px dotted red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    background-image: url("http://via.placeholder.com/1280x400");
+    background-color: grey;
+    height: 400px;
+    width: 1280px;
+}
+
+nav {
+    background-color: orange;
+    font-family: 'Permanent Marker';
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    position: relative;
+    word-spacing: 15px
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 5px;;
+}
+
+nav ul li a {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+#title {
+    position: relative;
+    font-size: 36px;
+    right: 30px;
+    top: 50px;
+    text-align: right;
+}
+
+#description {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 15% 5px 15%;
+}
+
+#portfolio {
+    padding-top: 10%;
+}
+
+#portfolio h1 {
+    border: 1px dotted red;
+    font-family: 'Permanent Marker';
+    font-size: 42px;
+    text-align: center;
+}
+
+#portfolio img {
+    padding: 2%;
+}
