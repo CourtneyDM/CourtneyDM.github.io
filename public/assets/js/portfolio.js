@@ -1,31 +1,31 @@
-var portfolioObj = [
+var pfObj = [
     {
-        img: "./assets/images/portfolio1.jpeg",
+        img: "./images/screenshots/portfolio1.jpeg",
         name: "portfolio-1",
         desc: "This will be some description for the portfolio"
     },
     {
-        img: "./assets/images/portfolio2.jpeg",
+        img: "./images/screenshots/portfolio1.jpeg",
         name: "portfolio-1",
         desc: "This will be some description for the portfolio"
     },
     {
-        img: "./assets/images/portfolio3.jpeg",
+        img: "./images/screenshots/portfolio1.jpeg",
         name: "portfolio-1",
         desc: "This will be some description for the portfolio"
     },
     {
-        img: "./assets/images/portfolio4.jpeg",
+        img: "./images/screenshots/portfolio1.jpeg",
         name: "portfolio-1",
         desc: "This will be some description for the portfolio"
     },
     {
-        img: "./assets/images/portfolio5.jpeg",
+        img: "./images/screenshots/portfolio1.jpeg",
         name: "portfolio-1",
         desc: "This will be some description for the portfolio"
     },
     {
-        img: "./assets/images/portfolio6.jpeg",
+        img: "./images/screenshots/portfolio1.jpeg",
         name: "portfolio-1",
         desc: "This will be some description for the portfolio"
     }
