@@ -47,13 +47,38 @@ figcaption {
     font-size: 16px;
     letter-spacing: 1px;
 }
+/***** Page Sections *****/
+#about,
+#portfolio,
+#contact {
+    margin: 10px;
+}
+
+#portfolio,
+#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    height: 500px;
+}
+
+
 .section-title {
     font-family: 'Permanent Marker';
 }
 
 h1.section-title {
+    margin-top: 5%;
+    padding: 2%;
+    line-height: 42px;
     font-size: 40px;
     text-align: center;
+}
+
+h1#my-projects.section-title {
+    margin-bottom: 3%;
 }
 
 span.section-title {
@@ -114,15 +139,6 @@ span.section-title {
     width: 80%;
 }
 
-
-
-.social-media-logo {
-    width: 50px;
-    height: 50px;
-}
-
-
-
 .nav-bar,
 .portfolio-layout,
 .contact-layout {
@@ -130,28 +146,10 @@ span.section-title {
 }
 
 
-#portfolio {
-    display: flex;
-    justify-content: space-between;
-}
-.project {
+
+.project,
+.contact-info {
     flex-basis: 30%;
-}
-
-.contact-layout {
-    justify-content: space-between;
-}
-
-#contact-me {
-    box-sizing: border-box;
-}
-
-.name {
-    color: rgb(0, 0, 0);
-    flex: 2;
-    font-size: 26px;
-    order: 1;
-    text-align: left;    
 }
 
 .nav {
@@ -159,22 +157,42 @@ span.section-title {
     text-align: right;
     order: 2;
 }
-
-.portfolio-img {
+.project h5 {
+    font-family: "Permanent Marker";
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    /* margin-bottom: 5px; */
+    padding: 5px;
+    text-align: center;
+}
+.project-screenshot {
     width: 400px;
     height: 200px;
 }
 
+#summary {
+    margin: 0 2% 5% 2%;
+}
+
 #social-media {
     flex: 1;
-    order: 2;
-    padding: 20px;
+    order: 1;
+}
+
+.social-media-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-info span {
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 #email {
     flex: 2;
-    order: 1;
-    padding: 20px;
+    order: 3;
+    
 }
 
 .form-group {
