@@ -15,140 +15,144 @@
 </head>
 
 <body>
-    <div id="page">
 
-        <div id="content">
+    <div class="container animated" id="page">
 
-            <!-- Header -->
-            <header id="header">
-                <nav class="nav-bar animated bounceInUp">
-                    <span class="name">Courtney Montgomery</span>
-                    <ul class="nav">
-                        <li>
-                            <a href="#description">About</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+        <!-- HEADER SECTION -->
+        <header id="header">
+            <nav class="nav-bar">
+                <span class="name">Courtney Montgomery</span>
+                <ul class="nav">
+                    <li>
+                        <a href="#description">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-            </header>
+        <!-- ABOUT ME SECTION-->
+        <div id="about">
+            <div class="profile-sticker">
+                <img id="profile-pic" src="./public/assets/images/li_profile.jpeg" alt="Courtney Montgomery profile picture">
+                <div id="sticker">
+                    <h4>Hello</h4>
+                    <h6>My Name Is:</h6>
+                    <p>Courtney M.</p>
+                </div>
+            </div>
+            <h1>Who Am I...</h1>
+            <p>
+                I am Computer Science graduate-turned IT professional-turned Web Developer. I am on a journey to become a full-stack developer.
+            </p>
+            <p>
+                I have an extensive background in IT industry, which has allowed me to develop strong communication, collaborative and leadership
+                skills. I am an avid learner of all thing web development, and am eager to learn and share knowledge with
+                others.
+            </p>
+        </div>
 
-            <!-- Who Am I... -->
-            <div id="about">
-                <div class="about-me">
-                    <div class="profile-sticker">
-                        <img id="profile-pic" src="./public/assets/images/li_profile.jpeg" alt="Courtney Montgomery profile picture">
-                        <div id="sticker">
-                            <h4>Hello</h4>
-                            <h6>My Name Is:</h6>
-                            <p>Courtney M.</p>
-                        </div>
-                    </div>
-                    <h1>Who Am I...</h1>
-                    <p>
-                        I am Computer Science graduate-turned IT professional-turned Web Developer. I am on a journey to become a full-stack developer.
-                    </p>
-                    <p>
-                        I have an extensive background in IT industry, which has allowed me to develop strong communication, collaborative and leadership
-                        skills. I am an avid learner of all thing web development, and am eager to learn and share knowledge
-                        with others.
-                    </p>
+
+        <!-- PORTFOLIO SECTION -->
+        <div id="portfolio">
+            <h1>My work...</h1>
+
+
+            <!-- PORTFOLIO LAYOUT -->
+            <div class="portfolio-layout">
+                <div class="sample">
+                    <figure>
+                        <figcaption>Star Wars RPG</figcaption>
+                        <img class="portfolio-img" src="./public/assets/images/screenshots/starwars-rpg.jpeg" alt="Star Wars RPG">
+                        <p>An interactive Star Wars-themed game where the objective is to select a character and defeat the
+                            remaining characters.
+                        </p>
+                    </figure>
+                </div>
+                <div class="sample">
+                    <figure>
+                        <figcaption>HarkUp</figcaption>
+                        <img class="portfolio-img" src="./public/assets/images/screenshots/harkup.jpeg" alt="Harkup Text-To-Speech Companion">
+                        <p>A text-to-speech companion that will display the readability version of a chosen URL and read it
+                            back to you. </p>
+                    </figure>
+                </div>
+                <div class="sample">
+                    <figure>
+                        <figcaption>Hangman Game</figcaption>
+                        <img class="portfolio-img" src="./public/assets/images/screenshots/hangman.jpeg" alt="Superheros Hangman Game">
+                        <p>A superhero version of the classic Hangman game. Guess the alias of a randomly select superhero,
+                            or meet your fate!</p>
+                    </figure>
                 </div>
             </div>
 
-            <!-- My Work... -->
-            <div id="portfolio">
-                <h1>My work...</h1>
-                <div class="portfolio-layout">
-                    <div class="sample">
-                        <figure>
-                            <figcaption>Star Wars RPG</figcaption>
-                            <img class="portfolio-img" src="./public/assets/images/screenshots/starwars-rpg.jpeg" alt="Star Wars RPG">
-                            <p>An interactive Star Wars-themed game where the objective is to select a character and defeat
-                                the remaining characters.</p>
-                        </figure>
-                    </div>
-                    <div class="sample">
-                        <figure>
-                            <figcaption>HarkUp</figcaption>
-                            <img class="portfolio-img" src="./public/assets/images/screenshots/harkup.jpeg" alt="Harkup Text-To-Speech Companion">
-                            <p>A text-to-speech companion that will display the readability version of a chosen URL and read
-                                it back to you. </p>
-                        </figure>
-                    </div>
-                    <div class="sample">
-                        <figure>
-                            <figcaption>Hangman Game</figcaption>
-                            <img class="portfolio-img" src="./public/assets/images/screenshots/hangman.jpeg" alt="Superheros Hangman Game">
-                            <p>A superhero version of the classic Hangman game. Guess the alias of a randomly select superhero,
-                                or meet your fate!</p>
-                        </figure>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Let's Connect -->
-            <div id="contact">
-                <h1>Let's Connect...</h1>
-                <p>Whether there is an opportunity for us to collaborate on a future project, or if you have feedback/suggestions
-                    on my some of my existing work, I would love to hear from you. Reach out to me on the social media platforms
-                    below, or submit the form to send me an email. I am looking forward to connecting with you!</p>
-
-
-                <div class="contact-layout">
-                    <!-- Social Media -->
-                    <div class="contact-me" id="social-media">
-                        <img src="./public/assets/images/icons/gmail.svg" alt="Email" class="sm-logo">
-                        <span>CourtDMontgomery@gmail.com</span>
-                        <br>
-
-                        <a href="https://linkedin.com/in/CourtneyDM">
-                            <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile" class="sm-logo">
-                        </a>
-                        <span>LinkedIn.com/in/CourtneyDM</span>
-                        <br>
-                        <a href="https://github.com/CourtneyDM">
-                            <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="sm-logo">
-                        </a>
-                        <span>Github.com/CourtneyDM</span>
-                        <br>
-                    </div>
-
-                    <!-- Email Form -->
-                    <div class="contact-me" id="email">
-                        <form action="https://formspree.io/courtdmontgomery@gmail.com" method="POST">
-
-                            <div class="form-group">
-                                <label for="name">Name: </label>
-                                <br>
-                                <input class="input-control" type="text" name="name" id="name" placeholder="'Johnny Appleseed'">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Email: </label>
-                                <br>
-                                <input class="input-control" type="email" name="_replyTo" id="email" placeholder="'john_appleseed@email.com'">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message">Message: </label>
-                                <br>
-                                <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
-                            </div>
-                            <button type="submit" value="Send">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
 
         </div>
+
+
+        <!-- CONTACT SECTION -->
+        <div id="contact">
+            <h1>Let's Connect...</h1>
+            <p>Whether there is an opportunity for us to collaborate on a future project, or if you have feedback/suggestions
+                on my some of my existing work, I would love to hear from you. Reach out to me on the social media platforms
+                below, or submit the form to send me an email. I am looking forward to connecting with you!</p>
+
+
+            <!-- CONTACT LAYOUT -->
+            <div class="contact-layout">
+                <!-- Social Media -->
+                <div class="contact-me" id="social-media">
+                    <img src="./public/assets/images/icons/gmail.svg" alt="Email" class="sm-logo">
+                    <span>CourtDMontgomery@gmail.com</span>
+                    <br>
+
+                    <a href="https://linkedin.com/in/CourtneyDM">
+                        <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile" class="sm-logo">
+                    </a>
+                    <span>LinkedIn.com/in/CourtneyDM</span>
+                    <br>
+                    <a href="https://github.com/CourtneyDM">
+                        <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="sm-logo">
+                    </a>
+                    <span>Github.com/CourtneyDM</span>
+                    <br>
+                </div>
+
+                <!-- EMAIL FORM -->
+                <div class="contact-me" id="email">
+                    <form action="https://formspree.io/courtdmontgomery@gmail.com" method="POST">
+
+                        <div class="form-group">
+                            <label for="name">Name: </label>
+                            <br>
+                            <input class="input-control" type="text" name="name" id="name" placeholder="'Johnny Appleseed'">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <br>
+                            <input class="input-control" type="email" name="_replyTo" id="email" placeholder="'john_appleseed@email.com'">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message: </label>
+                            <br>
+                            <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" value="Send">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
+
 
 </body>
 
