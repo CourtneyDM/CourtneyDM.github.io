@@ -314,7 +314,6 @@ span.visited:visited {
     color: black;
 }
 
-a.visited:hover,
 span.visited:hover {
     color: blue;
     font-weight: bold;
