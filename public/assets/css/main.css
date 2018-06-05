@@ -304,12 +304,6 @@ h6.section-title {
     margin-top: -4px;
 }
 
-a.visited:hover,
-span.visited:hover {
-    color: blue;
-    font-weight: bold;
-}
-
 a.visited,
 a.visited:visited {
     color: orange;
@@ -318,6 +312,12 @@ a.visited:visited {
 span.visited,
 span.visited:visited {
     color: black;
+}
+
+a.visited:hover,
+span.visited:hover {
+    color: blue;
+    font-weight: bold;
 }
 
 
