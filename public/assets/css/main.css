@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 .nav-bar {
     display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 10px 10px 25px grey;
 }
 
 .nav {
@@ -175,7 +175,6 @@ h5.section-title {
 #profile-pic {
     border-radius: 2%;
     box-shadow: 10px 10px 25px grey;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     width: 250px;
     height: 250px;
 }
@@ -321,7 +320,7 @@ span.visited:hover {
 
 
 /******* MEDIA QUERIES *******/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
     div.container#page,
     div.about-container,
     div.project,
