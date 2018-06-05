@@ -13,9 +13,23 @@ body {
 }
 
 button {
-    width: 20%;
-    height: 10%;
+    background-color: orange;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    margin: 10% 0 5% 40%;
     text-align: center;
+    width: 150px;    
+}
+
+button:hover {
+    background-color: orange;
+    box-shadow: 10px 10px 25px grey;
+    color: blue;
+    font-weight: bold;
 }
 
 p.description {
@@ -51,7 +65,7 @@ p.description.header
 }
 
 /******* NAVIGATION BAR *******/
-nav, footer {
+nav, footer {    
     background-color: orange;
     font-family: 'Architects Daughter', cursive;
     /* font-family: 'Permanent Marker'; */
@@ -59,16 +73,19 @@ nav, footer {
     letter-spacing: 2px;
     padding-left: 10px;
     position: relative;
-    word-spacing: 15px
+    word-spacing: 15px;
 }
 
 footer {
+    /* box-shadow: 8px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     color:#FFF;
     font-family: 'Architects Daughter', cursive;
     font-size: 14px;
     font-weight: bold;
-    height: 50px;
+    margin-top: 5%;
+    height: 60px;
     text-align: center;
+    text-shadow: 10px 10px 25px black;
     word-spacing: normal;
 }
 
@@ -87,6 +104,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: blue;
+    text-shadow: 10px 10px 25px black;
 }
 
 .nav-bar {
@@ -158,7 +176,8 @@ h5.section-title {
 
 #profile-pic {
     border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 10px 10px 25px grey;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     width: 250px;
     height: 250px;
 }
@@ -192,6 +211,7 @@ div#portfolio.portfolio-container {
 }
 
 img.project-screenshot {
+    box-shadow: 10px 10px 25px grey;
     width: 400px;
     height: 200px;
     margin: auto;
@@ -288,7 +308,6 @@ h6.section-title {
 
 /******* MEDIA QUERIES *******/
 @media screen and (min-width: 1440px) {
-
     div.container#page,
     div.about-container,
     div.project,
