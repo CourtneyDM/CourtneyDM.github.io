@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Courtney Montgomery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link rel="stylesheet" type="text/css" media="screen" href="public/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="public/assets/css/main.css">
@@ -43,23 +43,22 @@
         <!-- ABOUT ME SECTION-->
         <h1 id="my-bio" class="section-title">Hello, my name is Courtney and I am a Web Developer!</h1>
         <div class="about-container" id="about">
-            <div class="profile">
-                <div class="profile-picture">
-                    <img id="profile-pic" src="./public/assets/images/li_profile.jpeg" alt="Courtney Montgomery profile picture">
+            <div class="profile-picture">
+                <img id="profile-pic" src="./public/assets/images/li_profile.jpeg" alt="Courtney Montgomery profile picture">
+            </div>
 
-                </div>
-                <div class="bio">
-
-                    <p class="description">
-                        I am Computer Science graduate-turned IT professional-turned Web Developer. I am on a journey to become a full-stack developer.
-                    </p>
-                    <br>
-                    <p class="description">
-                        I have an extensive background in IT industry, which has allowed me to develop strong communication, collaborative and leadership
-                        skills. I am an avid learner of all thing web development, and am eager to learn and share knowledge
-                        with others.
-                    </p>
-                </div>
+            <div class="bio">
+                <p class="description">
+                    I am Computer Science graduate-turned IT professional-turned Web Developer. I am on a journey to become a full-stack developer.
+                </p>
+                <p class="description">My passion for development started during my teenage years, where the first language I learned was Pascal
+                    and C. My desire to expand my development knowledge grew stronger from that point on, and I went on to
+                    obtain my undergraduate degree in Computer Science from the University of North Texas.</p>
+                <p class="description">
+                    I have an extensive background in IT industry, which has allowed me to develop strong communication, collaborative and leadership
+                    skills. I am an avid learner of all thing web development, and am eager to learn and share knowledge
+                    with others.
+                </p>
             </div>
         </div>
 
@@ -97,8 +96,8 @@
 
         <!-- PORTFOLIO SECTION -->
         <h1 id="my-projects" class="section-title">My work...</h1>
-        <p class="description">Here a few examples of my capabilities using some of the latest web development tools and technologies.
-            More examples can be found on my
+        <p class="description">Here a few examples of my capabilities using some of the latest web development tools and technologies. More examples
+            can be found on my
             <a href="https://github.com/courtneydm">Github Page</a>.</p>
         <div class="portfolio-container" id="portfolio">
 
@@ -145,7 +144,9 @@
 
                 <!-- Social Media Links -->
                 <div class="social-media">
-                    <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="social-media-logo ">
+                    <a href="mailto:courtdmontgomery@gmail.com">
+                        <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="social-media-logo ">
+                    </a>
                     <span>CourtDMontgomery@gmail.com</span>
                     <br>
 
@@ -189,8 +190,39 @@
 
             </div>
         </div>
+        <footer>
+            <div class="footer-container">
+                <p>Designed by Courtney Montgomery &copy2018 | All Rights Reserved</p>
+            </div>
+        </footer>
 
-        <!-- End of page content -->
+        <!-- Enable Smooth Scroll -->
+        <script>
+            $(document).ready(function () {
+                // Add smooth scrolling to all links
+                $("a").on('click', function (event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function () {
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+            });
+        </script>
 </body>
 
 </html>

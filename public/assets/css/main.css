@@ -6,15 +6,23 @@
 /* Page Content */
 body {
     box-sizing: border-box;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Architects Daughter', cursive;
     font-size: 16px;
     letter-spacing: 1px;
+}
+
+button {
+    width: 20%;
+    height: 10%;
+    text-align: center;
 }
 
 p.description {
     margin-left: 3%;
     margin-right: 3%;
-    font-size: 24px;
+    padding: 2%;
+    font-size: 18px;
+    word-spacing: 1.25px;
 }
 
 figcaption {
@@ -29,7 +37,7 @@ a {
 
 
 /* Navigation Bar */
-nav {
+nav, footer {
     background-color: orange;
     font-family: 'Permanent Marker';
     line-height: 50px;
@@ -37,6 +45,16 @@ nav {
     padding-left: 10px;
     position: relative;
     word-spacing: 15px
+}
+
+footer {
+    color:#FFF;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    word-spacing: normal;
 }
 
 nav ul li {
@@ -58,6 +76,7 @@ nav ul li a:hover {
 
 .nav-bar {
     display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav {
@@ -83,18 +102,15 @@ nav ul li a:hover {
 /* Page Titles */
 .section-title {
     font-family: 'Permanent Marker';
+    
 }
 
 h1.section-title {
-    margin-top: 5%;
-    padding: 2%;
-    line-height: 42px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 40px;
     font-size: 40px;
     text-align: center;
-}
-
-h1#my-projects.section-title {
-    margin-bottom: 3%;
 }
 
 span.section-title {
@@ -105,44 +121,48 @@ h5.section-title {
     font-family: "Permanent Marker";
     font-size: 24px;
     letter-spacing: 1.5px;
+    margin-top: 5%;
     padding: 5px;
     text-align: center;
 }
 
 
-/* About Section */
-#about {
-    padding: 2%;
-}
-
-.profile {
+/******* ABOUT ME *******/
+.about-container {
     display: flex;
+    padding: 2%;
 }
 
 .profile-picture {
     flex: 1;
+    margin: auto;
 }
 
 #profile-pic {
-    display: inline;
-    border-radius: 5%;
+    /* display: inline; */
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
 }
 
 .bio {
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     width: 80%;
 }
 
-/* Portfolio Section */
+
+/******* MY PORTFOLIO *******/
 .portfolio-container {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .project {
     margin: auto;
     flex-basis: 30%;
+    margin-bottom: 5%;
 }
 
 .project-screenshot {
@@ -158,12 +178,11 @@ h5.section-title {
 }
 
 
-/* My Skills Section */
+/******* MY SKILLS *******/
 .skill-container {
     display: flex;
-    height: 200px;
+    height: 250px;
     justify-content: space-between;
-    margin: auto;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -173,7 +192,8 @@ h5.section-title {
     flex: 1;
 }
 
-/* Contact Section */
+
+/******* CONTACT ME *******/
 .contact-container {
     display: flex;
     margin: 0 auto;
@@ -182,7 +202,6 @@ h5.section-title {
 }
 
 .contact-me {
-    /* margin: auto; */
     padding: 20px;
     flex: 1;
     display: flex;
@@ -191,19 +210,24 @@ h5.section-title {
 
 .email-me {
     flex: 1;
-    /* margin: auto; */
     padding: 20px;
-    /* display: flex;
-    flex-direction: column; */
 }
+
 .remarks {
     word-spacing: 2px;
     letter-spacing: 1px;
+    padding: 2%;
     word-break: inherit;
 }
-.social-media-logo {
-    width: 50px;
+.social-media {
+    font-weight: bold;
+    padding: 2%;
+}
+
+.social-media-logo {  
     height: 50px;
+    width: 50px;
+    padding: 5px;
 }
 
 h6.section-title {
@@ -232,43 +256,10 @@ h6.section-title {
     margin-top: -4px;
   }
 
-/* .sticker {
-    background-color: red;
-    border: 1px dotted black;
-    border-radius: 15px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Verdana, 'sans-serif';
-    width: 400px;
-    height: 220px;
-    text-align: center;
-} */
 
-/* .sticker h4 { 
-    font-size: 42px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.sticker h6 {
-    font-size: 20px;
-}
-
-.sticker p {
-    background-color: white;
-    color: blue;
-    font-family: 'Permanent Marker';
-    font-size: 40px;
-    line-height: 140px;
-    padding: 2px;
-    text-align: center;
-} */
-
-
-/* Media Queries */
+/******* MEDIA QUERIES *******/
 
 @media screen and (min-width: 900px) {
-
-
     /* Portfolio Section */
     .portfolio-container {
         display: flex;
