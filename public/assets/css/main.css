@@ -302,14 +302,6 @@ h6.section-title {
     margin-right: 8px;
     padding: 4px;
     margin-top: -4px;
-  }
-
-a span {
-    color: black;
-}
-
-a.visited:visited {
-    color: orange;
 }
 
 a.visited:hover,
@@ -317,6 +309,17 @@ span.visited:hover {
     color: blue;
     font-weight: bold;
 }
+
+a.visited,
+a.visited:visited {
+    color: orange;
+}
+
+span.visited,
+span.visited:visited {
+    color: black;
+}
+
 
 /******* MEDIA QUERIES *******/
 @media screen and (min-width: 1440px) {
