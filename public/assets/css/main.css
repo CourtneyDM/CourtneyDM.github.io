@@ -41,6 +41,7 @@ p.description {
 }
 
 figcaption {
+    margin-top: 10%;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -303,11 +304,16 @@ h6.section-title {
     margin-top: -4px;
   }
 
-a#visited:visited {
+a span {
+    color: black;
+}
+
+a.visited:visited {
     color: orange;
 }
 
-a#visited:hover {
+a.visited:hover,
+span.visited:hover {
     color: blue;
     font-weight: bold;
 }
