@@ -37,7 +37,7 @@ p.description {
     margin-right: 3%;
     padding: 2%;
     font-size: 18px;
-    word-spacing: 1.25px;
+    word-spacing: 1.5px;
 }
 
 figcaption {
@@ -58,7 +58,6 @@ div#skills.skill-container,
 div.contact-container,
 p.description.header
  {
-    
     width: auto;
     padding: auto;
     margin: auto;
