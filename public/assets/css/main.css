@@ -50,11 +50,13 @@ figcaption {
 /***** Page Sections *****/
 #about,
 #portfolio,
+#skills,
 #contact {
     margin: 10px;
 }
 
 #portfolio,
+#skills,
 #contact {
     display: flex;
     justify-content: space-between;
@@ -139,17 +141,18 @@ span.section-title {
     width: 80%;
 }
 
-.nav-bar,
-.portfolio-layout,
-.contact-layout {
+.nav-bar {
     display: flex;
 }
-
-
 
 .project,
 .contact-info {
     flex-basis: 30%;
+}
+.front-end,
+.back-end {
+    flex: 1;
+    flex-basis: 50%;
 }
 
 .nav {
@@ -161,7 +164,6 @@ span.section-title {
     font-family: "Permanent Marker";
     font-size: 24px;
     letter-spacing: 1.5px;
-    /* margin-bottom: 5px; */
     padding: 5px;
     text-align: center;
 }
@@ -182,6 +184,11 @@ span.section-title {
 .social-media-logo {
     width: 50px;
     height: 50px;
+}
+
+.dev-logo {
+    width: 100px;
+    height: 100px;
 }
 
 .contact-info span {
