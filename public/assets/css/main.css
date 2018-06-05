@@ -17,6 +17,11 @@ button {
     text-align: center;
 }
 
+hr {
+    width: 75%;
+    align: center;
+}
+
 p.description {
     margin-left: 3%;
     margin-right: 3%;
@@ -39,7 +44,8 @@ a {
 /* Navigation Bar */
 nav, footer {
     background-color: orange;
-    font-family: 'Permanent Marker';
+    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Permanent Marker'; */
     line-height: 50px;
     letter-spacing: 2px;
     padding-left: 10px;
@@ -89,7 +95,7 @@ nav ul li a:hover {
     padding-right: 2%;
 }
 
-/* Page Sections */
+/******* Page Sections *******/
 #about,
 #portfolio,
 #skills {
@@ -99,10 +105,9 @@ nav ul li a:hover {
 }
 
 
-/* Page Titles */
+/******* Page Titles *******/
 .section-title {
-    font-family: 'Permanent Marker';
-    
+    font-family: 'Permanent Marker';    
 }
 
 h1.section-title {
@@ -114,7 +119,10 @@ h1.section-title {
 }
 
 span.section-title {
-    font-size: 36px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 h5.section-title {
@@ -143,6 +151,10 @@ h5.section-title {
     border-radius: 10%;
     width: 250px;
     height: 250px;
+}
+
+#my-bio {
+    padding-top: 5%;
 }
 
 .bio {
