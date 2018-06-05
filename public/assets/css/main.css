@@ -50,6 +50,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: black;
+}
+
 div.container#page,
 div.about-container,
 div.project,
@@ -303,6 +307,10 @@ h6.section-title {
     margin-top: -4px;
   }
 
+  a:hover {
+    color: orange;
+    font-weight: bold;
+}
 
 /******* MEDIA QUERIES *******/
 @media screen and (min-width: 1440px) {
