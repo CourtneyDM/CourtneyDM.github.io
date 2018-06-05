@@ -63,9 +63,14 @@ figcaption {
 }
 
 .project {
-    height: 500px;
+    height: 400px;
 }
 
+.front-end,
+.back-end,
+.contact-info {
+    height: 200px;
+}
 
 .section-title {
     font-family: 'Permanent Marker';
@@ -152,7 +157,7 @@ span.section-title {
 .front-end,
 .back-end {
     flex: 1;
-    flex-basis: 50%;
+    flex-basis: 30%;
 }
 
 .nav {
@@ -160,7 +165,7 @@ span.section-title {
     text-align: right;
     order: 2;
 }
-.project h5 {
+h5.section-title {
     font-family: "Permanent Marker";
     font-size: 24px;
     letter-spacing: 1.5px;
@@ -187,8 +192,10 @@ span.section-title {
 }
 
 .dev-logo {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+    margin-top: 5%;
+    padding: 5px;
 }
 
 .contact-info span {

@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link rel="stylesheet" type="text/css" media="screen" href="public/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="public/assets/css/main.css">
+
     <!-- Include jQuery 3.3.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <!-- START OF PAGE CONTENT -->
-    <div class="container animated" id="page">
+    <div class="container animated bounceInLeft" id="page">
         <nav class="nav-bar">
             <span class="section-title">Courtney Montgomery</span>
             <ul class="nav">
@@ -29,7 +30,6 @@
                 <li>
                     <a href="#my-skills">Skills</a>
                 </li>
-
                 <li>
                     <a href="#contact-me">Contact</a>
                 </li>
@@ -76,7 +76,7 @@
             <!-- PORTFOLIO LAYOUT -->
             <div class="project">
                 <figure>
-                    <h5>Star Wars RPG</h5>
+                    <h5 class="section-title">Star Wars RPG</h5>
                     <img class="project-screenshot" src="./public/assets/images/screenshots/starwars-rpg.jpeg" alt="Star Wars RPG">
                     <figcaption>An interactive Star Wars-themed game where the objective is to select a character and defeat the remaining
                         characters.
@@ -85,7 +85,7 @@
             </div>
             <div class="project">
                 <figure>
-                    <h5>HarkUp</h5>
+                    <h5 class="section-title">HarkUp</h5>
                     <img class="project-screenshot" src="./public/assets/images/screenshots/harkup.jpeg" alt="Harkup Text-To-Speech Companion">
                     <figcaption>A text-to-speech companion that will display the readability version of a chosen URL and read it back
                         to you.
@@ -94,7 +94,7 @@
             </div>
             <div class="project">
                 <figure>
-                    <h5>Hangman</h5>
+                    <h5 class="section-title">Hangman</h5>
                     <img class="project-screenshot" src="./public/assets/images/screenshots/hangman.jpeg" alt="Superheros Hangman Game">
                     <figcaption>A superhero version of the classic Hangman game. Guess the alias of a randomly select superhero, or meet
                         your fate!
@@ -107,7 +107,6 @@
         <h1 id="my-skills" class="section-title">My Skills...</h1>
 
         <div id="skills">
-
             <div class="front-end">
                 <h5 class="section-title">Front-End Technologies</h5>
                 <img src="./public/assets/images/icons/html5.svg" alt="HTML5 " class="dev-logo ">
@@ -116,19 +115,15 @@
                 <img src="./public/assets/images/icons/jquery-1.svg" alt="jQuery" class="dev-logo">
                 <img src="./public/assets/images/icons/bootstrap-4.svg" alt="Bootstrap 4" class="dev-logo">
             </div>
-            <div class="back-end ">
-                <div class="back-end">
-                    <h5 class="section-title">Back-End Technologies</h5>
-                    <img src="./public/assets/images/icons/npm-1.png" alt="Node Package Manager" class="dev-logo">
-                    <img src="./public/assets/images/icons/nodejs-1.svg" alt="NodeJS " class="dev-logo ">
-                    <img src="./public/assets/images/icons/expressJS.png" alt="ExpressJS " class="dev-logo ">
-                    <img src="./public/assets/images/icons/mysql-5.svg" alt="MySQL" class="dev-logo">
-                    <img src="./public/assets/images/icons/mongodb.svg" alt="MongoDB" class="dev-logo">
-                </div>
 
+            <div class="back-end">
+                <h5 class="section-title">Back-End Technologies</h5>
+                <img src="./public/assets/images/icons/npm-1.png" alt="Node Package Manager" class="dev-logo">
+                <img src="./public/assets/images/icons/nodejs-1.svg" alt="NodeJS " class="dev-logo ">
+                <img src="./public/assets/images/icons/expressJS.png" alt="ExpressJS " class="dev-logo ">
+                <img src="./public/assets/images/icons/mysql-5.svg" alt="MySQL" class="dev-logo">
+                <img src="./public/assets/images/icons/mongodb.svg" alt="MongoDB" class="dev-logo">
             </div>
-
-
         </div>
 
 
@@ -168,22 +163,19 @@
                     <div class="form-group">
                         <label for="name">Name: </label>
                         <br>
-                        <input class="input-control" type="text " name="name" id="name" placeholder="
-                'Johnny Appleseed'">
+                        <input class="input-control" type="text " name="name" id="name" placeholder="'Johnny Appleseed'">
                     </div>
 
                     <div class="form-group">
                         <label for="email">Email: </label>
                         <br>
-                        <input class="input-control" type="email " name="_replyTo" id="email" placeholder="
-                'john_appleseed@email.com'">
+                        <input class="input-control" type="email " name="_replyTo" id="email" placeholder="'john_appleseed@email.com'">
                     </div>
 
                     <div class="form-group">
                         <label for="message">Message: </label>
                         <br>
-                        <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message
-                here..."></textarea>
+                        <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
                     </div>
                     <button type="submit" value="Send">Send Message</button>
                 </form>
