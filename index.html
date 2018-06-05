@@ -15,40 +15,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body class="animated fadeIn">
+
     <!-- START OF PAGE CONTENT -->
-    <div class="container animated bounceInLeft" id="page">
+    <div class="container" id="page">
+
+        <!-- NAVIGATION BAR -->
         <nav class="nav-bar">
             <span class="section-title">Courtney Montgomery</span>
             <ul class="nav">
                 <li>
-                    <a href="#description">About</a>
-                </li>
-                <li>
-                    <a href="#my-projects">Portfolio</a>
+                    <a href="#my-bio">About</a>
                 </li>
                 <li>
                     <a href="#my-skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#contact-me">Contact</a>
+                    <a href="#my-projects">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#my-contact">Contact</a>
                 </li>
             </ul>
         </nav>
 
-        <!-- HEADER SECTION -->
-        <!-- <header id="header">
-            <div class="sticker">
-                <h4>Hello</h4>
-                <h6>My Name Is:</h6>
-                <p>Courtney M.</p>
-            </div>
-        </header> -->
-
 
         <!-- ABOUT ME SECTION-->
-        <!-- <h1 class="section-title">Who Am I...</h1>
-        <div id="about">
+        <h1 id="my-bio" class="section-title">Hello, my name is Courtney and I am a Web Developer!</h1>
+        <div class="about-container" id="about">
             <div class="profile">
                 <div class="profile-picture">
                     <img id="profile-pic" src="./public/assets/images/li_profile.jpeg" alt="Courtney Montgomery profile picture">
@@ -56,22 +50,57 @@
                 </div>
                 <div class="bio">
 
-                    <p>
+                    <p class="description">
                         I am Computer Science graduate-turned IT professional-turned Web Developer. I am on a journey to become a full-stack developer.
                     </p>
-                    <p>
+                    <br>
+                    <p class="description">
                         I have an extensive background in IT industry, which has allowed me to develop strong communication, collaborative and leadership
                         skills. I am an avid learner of all thing web development, and am eager to learn and share knowledge
                         with others.
                     </p>
                 </div>
             </div>
-        </div> -->
+        </div>
+
+
+        <!-- SKILLS SECTION -->
+        <h1 id="my-skills" class="section-title">My Skills...</h1>
+
+        <p class="description">I am proficient in the following Web Development technologies, along with a solid foundation in lower-level Object-Oriented
+            programming languages such as C++ and C# programming languages.</p>
+
+        <div class="skill-container" id="skills">
+            <div class="front-end-container">
+                <h5 class="section-title">Front-End Technologies</h5>
+                <div class="front-end">
+                    <img src="./public/assets/images/icons/html5.svg" alt="HTML5 " class="dev-logo ">
+                    <img src="./public/assets/images/icons/css-3.svg" alt="CSS3 " class="dev-logo ">
+                    <img src="./public/assets/images/icons/javascript.svg" alt="Javascript" class="dev-logo">
+                    <img src="./public/assets/images/icons/jquery-1.svg" alt="jQuery" class="dev-logo">
+                    <img src="./public/assets/images/icons/bootstrap-4.svg" alt="Bootstrap 4" class="dev-logo">
+                </div>
+            </div>
+
+            <div class="back-end-container">
+                <h5 class="section-title">Back-End Technologies</h5>
+                <div class="back-end">
+                    <img src="./public/assets/images/icons/npm-1.png" alt="Node Package Manager" class="dev-logo">
+                    <img src="./public/assets/images/icons/nodejs-1.svg" alt="NodeJS " class="dev-logo ">
+                    <img src="./public/assets/images/icons/expressJS.png" alt="ExpressJS " class="dev-logo ">
+                    <img src="./public/assets/images/icons/mysql-5.svg" alt="MySQL" class="dev-logo">
+                    <img src="./public/assets/images/icons/mongodb.svg" alt="MongoDB" class="dev-logo">
+                </div>
+            </div>
+        </div>
 
 
         <!-- PORTFOLIO SECTION -->
         <h1 id="my-projects" class="section-title">My work...</h1>
-        <div id="portfolio">
+        <p class="description">Below you will find a few examples of my capabilities using some of the latest web development tools and technologies.
+            More examples can be found on my
+            <a href="https://github.com/courtneydm">Github Page</a>.</p>
+        <div class="portfolio-container" id="portfolio">
 
             <!-- PORTFOLIO LAYOUT -->
             <div class="project">
@@ -103,61 +132,39 @@
             </div>
         </div>
 
-        <!-- SKILLS SECTION -->
-        <h1 id="my-skills" class="section-title">My Skills...</h1>
-
-        <div id="skills">
-            <div class="front-end">
-                <h5 class="section-title">Front-End Technologies</h5>
-                <img src="./public/assets/images/icons/html5.svg" alt="HTML5 " class="dev-logo ">
-                <img src="./public/assets/images/icons/css-3.svg" alt="CSS3 " class="dev-logo ">
-                <img src="./public/assets/images/icons/javascript.svg" alt="Javascript" class="dev-logo">
-                <img src="./public/assets/images/icons/jquery-1.svg" alt="jQuery" class="dev-logo">
-                <img src="./public/assets/images/icons/bootstrap-4.svg" alt="Bootstrap 4" class="dev-logo">
-            </div>
-
-            <div class="back-end">
-                <h5 class="section-title">Back-End Technologies</h5>
-                <img src="./public/assets/images/icons/npm-1.png" alt="Node Package Manager" class="dev-logo">
-                <img src="./public/assets/images/icons/nodejs-1.svg" alt="NodeJS " class="dev-logo ">
-                <img src="./public/assets/images/icons/expressJS.png" alt="ExpressJS " class="dev-logo ">
-                <img src="./public/assets/images/icons/mysql-5.svg" alt="MySQL" class="dev-logo">
-                <img src="./public/assets/images/icons/mongodb.svg" alt="MongoDB" class="dev-logo">
-            </div>
-        </div>
-
 
         <!-- CONTACT SECTION -->
-        <div class="header">
-            <h1 id="contact-me" class="section-title">Let's Connect...</h1>
+        <h1 id="my-contact" class="section-title">Let's Connect...</h1>
+        <div class="contact-container">
+            <div class="contact-me">
+                <div class="remarks">
+                    <p>Whether it be a job or collaboration opportunity, or if you have feedback on my work, I would love to
+                        hear from you. Find me on the social media platforms below, or submit the form to send me an email.
+                        I look forward to connecting with you!</p>
+                </div>
 
-            <p id="summary">Whether there is an opportunity for us to collaborate on a future project, or if you have feedback/suggestions
-                on my some of my existing work, I would love to hear from you. Reach out to me on the social media platforms
-                below, or submit the form to send me an email. I am looking forward to connecting with you!
-            </p>
-        </div>
+                <!-- Social Media Links -->
+                <div class="social-media">
+                    <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="social-media-logo ">
+                    <span>CourtDMontgomery@gmail.com</span>
+                    <br>
 
-        <div id="contact">
-            <!-- Social Media -->
-            <div class="contact-info" id="social-media">
-                <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="social-media-logo ">
-                <span>CourtDMontgomery@gmail.com</span>
-                <br>
-
-                <a href="https://linkedin.com/in/CourtneyDM">
-                    <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile" class="social-media-logo">
-                </a>
-                <span>LinkedIn.com/in/CourtneyDM</span>
-                <br>
-                <a href="https://github.com/CourtneyDM">
-                    <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="social-media-logo">
-                </a>
-                <span>Github.com/CourtneyDM</span>
-                <br>
+                    <a href="https://linkedin.com/in/CourtneyDM">
+                        <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile" class="social-media-logo">
+                    </a>
+                    <span>LinkedIn.com/in/CourtneyDM</span>
+                    <br>
+                    <a href="https://github.com/CourtneyDM">
+                        <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="social-media-logo">
+                    </a>
+                    <span>Github.com/CourtneyDM</span>
+                    <br>
+                </div>
             </div>
 
-            <!-- EMAIL FORM -->
-            <div class="contact-info" id="email">
+            <div class="email-me">
+                <!-- Email Me Form -->
+                <h6 class="section-title">Your Contact Info...</h6>
                 <form action="https://formspree.io/courtdmontgomery@gmail.com" method="POST">
 
                     <div class="form-group">
@@ -177,15 +184,13 @@
                         <br>
                         <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
                     </div>
-                    <button type="submit" value="Send">Send Message</button>
+                    <button type="submit" value="Send">Click to Send</button>
                 </form>
-            </div>
 
+            </div>
         </div>
 
-    </div>
-
-
+        <!-- End of page content -->
 </body>
 
 </html>

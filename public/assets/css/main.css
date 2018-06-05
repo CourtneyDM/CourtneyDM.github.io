@@ -3,10 +3,32 @@
     padding: 0px;
 }
 
+/* Page Content */
+body {
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+p.description {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 24px;
+}
+
+figcaption {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
 
+
+/* Navigation Bar */
 nav {
     background-color: orange;
     font-family: 'Permanent Marker';
@@ -20,7 +42,6 @@ nav {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    padding-left: 5px;;
 }
 
 nav ul li a {
@@ -35,43 +56,31 @@ nav ul li a:hover {
     color: blue;
 }
 
-figcaption {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+.nav-bar {
+    display: flex;
 }
-/* Container DIV */
-.container {
-    box-sizing: border-box;
-    font-family: 'Indie Flower', cursive;
-    font-size: 16px;
-    letter-spacing: 1px;
+
+.nav {
+    flex: 1;
+    text-align: right;
+    order: 2;
 }
-/***** Page Sections *****/
+
+.nav:last-child {
+    padding-right: 2%;
+}
+
+/* Page Sections */
 #about,
 #portfolio,
-#skills,
-#contact {
+#skills {
+    display: flex;
+    justify-content: space-between;
     margin: 10px;
 }
 
-#portfolio,
-#skills,
-#contact {
-    display: flex;
-    justify-content: space-between;
-}
 
-.project {
-    height: 400px;
-}
-
-.front-end,
-.back-end,
-.contact-info {
-    height: 200px;
-}
-
+/* Page Titles */
 .section-title {
     font-family: 'Permanent Marker';
 }
@@ -92,6 +101,16 @@ span.section-title {
     font-size: 36px;
 }
 
+h5.section-title {
+    font-family: "Permanent Marker";
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* About Section */
 #about {
     padding: 2%;
 }
@@ -109,7 +128,111 @@ span.section-title {
     border-radius: 5%;
 }
 
-.sticker {
+.bio {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+/* Portfolio Section */
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    margin: auto;
+    flex-basis: 30%;
+}
+
+.project-screenshot {
+    width: 400px;
+    height: 200px;
+}
+
+.dev-logo {
+    width: 75px;
+    height: 75px;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+
+/* My Skills Section */
+.skill-container {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.front-end,
+.back-end {
+    flex: 1;
+}
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.contact-me {
+    /* margin: auto; */
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-me {
+    flex: 1;
+    /* margin: auto; */
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.remarks {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    word-break: inherit;
+}
+.social-media-logo {
+    width: 50px;
+    height: 50px;
+}
+
+h6.section-title {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.form-group label {
+    flex: none;
+    display: block;
+    width: 125px;
+    font-weight: bold;
+  }
+
+.form-group .input-control {
+    flex: 1 auto;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    padding: 4px;
+    margin-top: -4px;
+  }
+
+/* .sticker {
     background-color: red;
     border: 1px dotted black;
     border-radius: 15px;
@@ -118,9 +241,9 @@ span.section-title {
     width: 400px;
     height: 220px;
     text-align: center;
-}
+} */
 
-.sticker h4 { 
+/* .sticker h4 { 
     font-size: 42px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -138,102 +261,17 @@ span.section-title {
     line-height: 140px;
     padding: 2px;
     text-align: center;
-}
+} */
 
-.bio {
-    padding: 20px;
-    box-sizing: border-box;
-    width: 80%;
-}
 
-.nav-bar {
-    display: flex;
-}
+/* Media Queries */
 
-.project,
-.contact-info {
-    flex-basis: 30%;
-}
-.front-end,
-.back-end {
-    flex: 1;
-    flex-basis: 30%;
-}
+@media screen and (min-width: 900px) {
 
-.nav {
-    flex: 1;
-    text-align: right;
-    order: 2;
-}
-h5.section-title {
-    font-family: "Permanent Marker";
-    font-size: 24px;
-    letter-spacing: 1.5px;
-    padding: 5px;
-    text-align: center;
-}
-.project-screenshot {
-    width: 400px;
-    height: 200px;
-}
 
-#summary {
-    margin: 0 2% 5% 2%;
-}
-
-#social-media {
-    flex: 1;
-    order: 1;
-}
-
-.social-media-logo {
-    width: 50px;
-    height: 50px;
-}
-
-.dev-logo {
-    width: 75px;
-    height: 75px;
-    margin-top: 5%;
-    padding: 5px;
-}
-
-.contact-info span {
-    font-weight: bold;
-    vertical-align: middle;
-}
-
-#email {
-    flex: 2;
-    order: 3;
-    
-}
-
-.form-group {
-    display: flex;
-    flex-direction: row;
-}
-
-.form-group label {
-    flex: none;
-    display: block;
-    width: 125px;
-    font-weight: bold;
-    font-size: 1em;
-  }
-
-.form-group .input-control {
-    flex: 1 1 auto;
-    display: block;
-    margin-bottom: 5px;
-    margin-right: 8px;
-    padding: 4px;
-    margin-top: -4px;
-  }
-
-@media (min-width: 900px) {
-    #contact-me {
-        flex-basis: 30%;
-        justify-content: center;
+    /* Portfolio Section */
+    .portfolio-container {
+        display: flex;
+        justify-content: space-between;
     }
 }
