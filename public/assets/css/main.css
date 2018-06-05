@@ -33,10 +33,10 @@ button:hover {
 }
 
 p.description {
+    font-size: 18px;
     margin-left: 3%;
     margin-right: 3%;
-    padding: 2%;
-    font-size: 18px;
+    padding: 2%;    
     word-spacing: 1.5px;
 }
 
@@ -58,16 +58,15 @@ div#skills.skill-container,
 div.contact-container,
 p.description.header
  {
-    width: auto;
-    padding: auto;
     margin: auto;
+    padding: auto;
+    width: auto;
 }
 
 /******* NAVIGATION BAR *******/
 nav, footer {    
     background-color: orange;
     font-family: 'Architects Daughter', cursive;
-    /* font-family: 'Permanent Marker'; */
     line-height: 50px;
     letter-spacing: 2px;
     padding-left: 10px;
@@ -76,13 +75,12 @@ nav, footer {
 }
 
 footer {
-    /* box-shadow: 8px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     color:#FFF;
     font-family: 'Architects Daughter', cursive;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 5%;
     height: 60px;
+    margin-top: 5%;
     text-align: center;
     text-shadow: 10px 10px 25px black;
     word-spacing: normal;
@@ -273,7 +271,7 @@ div.remarks p {
     padding: 2%;
 }
 
-.social-media-logo {  
+.social-media-logo { 
     height: 50px;
     width: 50px;
     padding: 5px;
