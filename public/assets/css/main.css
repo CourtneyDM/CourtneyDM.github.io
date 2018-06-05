@@ -50,10 +50,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: black;
-}
-
 div.container#page,
 div.about-container,
 div.project,
@@ -307,8 +303,12 @@ h6.section-title {
     margin-top: -4px;
   }
 
-  a:hover {
+a#visited:visited {
     color: orange;
+}
+
+a#visited:hover {
+    color: blue;
     font-weight: bold;
 }
 
