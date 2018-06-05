@@ -3,7 +3,8 @@
     padding: 0px;
 }
 
-/* Page Content */
+
+/******* PAGE CONTENT *******/
 body {
     box-sizing: border-box;
     font-family: 'Architects Daughter', cursive;
@@ -15,11 +16,6 @@ button {
     width: 20%;
     height: 10%;
     text-align: center;
-}
-
-hr {
-    width: 75%;
-    align: center;
 }
 
 p.description {
@@ -40,8 +36,21 @@ a {
     text-decoration: none;
 }
 
+div.container#page,
+div.about-container,
+div.project,
+div#portfolio.portfolio-container,
+div#skills.skill-container,
+div.contact-container,
+p.description.header
+ {
+    
+    width: auto;
+    padding: auto;
+    margin: auto;
+}
 
-/* Navigation Bar */
+/******* NAVIGATION BAR *******/
 nav, footer {
     background-color: orange;
     font-family: 'Architects Daughter', cursive;
@@ -95,7 +104,8 @@ nav ul li a:hover {
     padding-right: 2%;
 }
 
-/******* Page Sections *******/
+
+/******* PAGE SECTIONS *******/
 #about,
 #portfolio,
 #skills {
@@ -105,7 +115,7 @@ nav ul li a:hover {
 }
 
 
-/******* Page Titles *******/
+/******* PAGE TITLES *******/
 .section-title {
     font-family: 'Permanent Marker';    
 }
@@ -147,8 +157,8 @@ h5.section-title {
 }
 
 #profile-pic {
-    /* display: inline; */
-    border-radius: 10%;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 250px;
     height: 250px;
 }
@@ -165,28 +175,26 @@ h5.section-title {
 
 
 /******* MY PORTFOLIO *******/
+div.skill-container#skills,
+div#portfolio.portfolio-container {
+    margin-bottom: 5%;
+}
+
 .portfolio-container {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+
 }
 
 .project {
-    margin: auto;
     flex-basis: 30%;
     margin-bottom: 5%;
 }
 
-.project-screenshot {
+img.project-screenshot {
     width: 400px;
     height: 200px;
-}
-
-.dev-logo {
-    width: 75px;
-    height: 75px;
-    margin-top: 5%;
-    padding: 5px;
+    margin: auto;
 }
 
 
@@ -204,8 +212,17 @@ h5.section-title {
     flex: 1;
 }
 
+.dev-logo {
+    width: 75px;
+    height: 75px;
+    margin-top: 5%;
+    padding: 5px;
+}
 
 /******* CONTACT ME *******/
+div.remarks p {
+    font-size: 16px;
+}
 .contact-container {
     display: flex;
     margin: 0 auto;
@@ -270,9 +287,28 @@ h6.section-title {
 
 
 /******* MEDIA QUERIES *******/
+@media screen and (min-width: 1440px) {
 
-@media screen and (min-width: 900px) {
+    div.container#page,
+    div.about-container,
+    div.project,
+    div#portfolio.portfolio-container,
+    div#skills.skill-container,
+    div.contact-container,
+    p.description.header
+     {
+        
+        width: 1440px;
+        padding: auto;
+        margin: auto;
+    }
+
     /* Portfolio Section */
+    div#portfolio.portfolio-container,
+    div.skill-container#skills {
+        margin-bottom: 5%;
+    }
+
     .portfolio-container {
         display: flex;
         justify-content: space-between;
