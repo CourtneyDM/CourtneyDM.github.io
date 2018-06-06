@@ -347,17 +347,72 @@ span.visited:hover {
     }
 }
 
-/* @media (min-width: 1080px) {
-    div.skill-container {
+@media (max-width: 1240px) {
+
+    span.section-title {
+        font-size: 22px;
+    }
+
+    ul.nav a {
+        font-size: 18px;
+    }
+
+    div.container#page,
+    div.about-container,
+    div.project,
+    div#portfolio.portfolio-container,
+    div#skills.skill-container,
+    div.contact-container,
+    p.description.header
+     {
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin: auto;
+    }
+
+    div.skill-container,
+    div.portfolio-container {
         display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
 
     div.front-end-container,
     div.back-end-container {
         flex: 1;
+        margin: auto;
+        padding: auto;
     }
 
-} */
+    div.front-end-container {
+        margin-bottom: 3%;
+    }
+
+    div.back-end-container {
+        margin-top: 3%;
+    }
+
+    img.project-screenshot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: auto;
+    }
+
+    figcaption {
+        margin-top: 3%;
+        padding: auto;
+    }
+
+    h1.section-title {
+        margin-top: 5%;
+        padding: auto;
+    }
+
+}
 
 @media (max-width: 960px) {
     img#profile-pic {
