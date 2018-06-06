@@ -420,7 +420,7 @@ span.visited:hover {
 
 /******* MAX-WIDTH: 960PX *******/
 @media (max-width: 960px) {
-
+    span.section-title,
     .nav:last-child {
         padding-right: 2%;
     }
@@ -556,7 +556,7 @@ span.visited:hover {
 
 /******* MAX-WIDTH 768PX ********/
 @media (max-width: 768px) {
-
+    span.section-title,
     .nav:last-child {
         padding-right: 2%;
     }
