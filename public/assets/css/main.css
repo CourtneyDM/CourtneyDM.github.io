@@ -319,7 +319,9 @@ span.visited:hover {
 }
 
 
-/******* MEDIA QUERIES *******/
+/* MEDIA QUERIES */
+
+/******* MIN-WIDTH: 1440PX  *******/
 @media screen and (min-width: 1440px) {
     div.container#page,
     div.about-container,
@@ -347,6 +349,7 @@ span.visited:hover {
     }
 }
 
+/******* MAX-WIDTH: 1240PX  *******/
 @media (max-width: 1240px) {
 
     span.section-title {
@@ -414,6 +417,7 @@ span.visited:hover {
 
 }
 
+/******* MAX-WIDTH: 960PX *******/
 @media (max-width: 960px) {
     img#profile-pic {
         width: 300px;
@@ -533,8 +537,8 @@ span.visited:hover {
     }
 
     button {
-        font-size: 24px;
-        height: 75px;
+        font-size: 18px;
+        height: auto;
         width: 200px;
     }
 
@@ -543,10 +547,17 @@ span.visited:hover {
     }
 }
 
+
+/******* MAX-WIDTH 768PX ********/
 @media (max-width: 768px) {
 
+    footer,
+    nav {
+        width: auto;
+        height: auto;
+    }
     span.section-title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     ul.nav a {
@@ -558,11 +569,17 @@ span.visited:hover {
         height: auto;
     }
 
+    div.about-container,
     div.contact-container {
         display: flex;
         flex-direction: column;
         margin: 0;
         padding: 0;
+    }
+
+    div.bio {
+        margin: auto;
+        padding: auto;
     }
 
     div.contact-me {
@@ -580,4 +597,59 @@ span.visited:hover {
         margin: 0;
         order: 1;
     }
+
+    h1.section-title {
+        font-size: 30px;
+    }
+
+    h5.section-title {
+        font-size: 24px;
+    }
+
+    img.social-media-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    button,
+    p.description,
+    p.description.header,
+    figcaption,
+    span.visited,
+    a.visited {
+        font-size: 16px;
+    }
+
+    button {
+        width: 150px;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }
+
+/* @media (min-width: 330px) {
+
+    footer,
+    div.container#page,
+    div.about-container,
+    div.project,
+    div#portfolio.portfolio-container,
+    div#skills.skill-container,
+    div.contact-container,
+    p.description.header
+     {
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin: auto;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+} */
+
+/* @media (max-width: ) */
