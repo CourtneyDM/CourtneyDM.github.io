@@ -359,7 +359,7 @@ span.visited:hover {
 
 } */
 
-@media (max-width: 1080px) {
+@media (max-width: 960px) {
     img#profile-pic {
         width: 300px;
         height: 300px;
@@ -488,7 +488,7 @@ span.visited:hover {
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     span.section-title {
         font-size: 18px;
