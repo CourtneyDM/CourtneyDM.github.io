@@ -325,6 +325,19 @@ span.visited:hover {
 
 /******* MIN-WIDTH: 1440PX  *******/
 @media screen and (min-width: 1440px) {
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    span.section-title {
+        font-size: 40px;
+    }
+
+    img#profile-pic {
+        width: 500px;
+        height: 500px;
+    }
+
     div.container#page,
     div.about-container,
     div.project,
@@ -337,6 +350,26 @@ span.visited:hover {
         width: 1440px;
         padding: auto;
         margin: auto;
+    }
+
+    h1.section-title {
+        font-size: 50px;
+    }
+
+    h5.section-title {
+        font-size: 40px;
+    }
+
+    p.description,
+    p.description.header {
+        font-size: 30px;
+    }
+
+    button,
+    label,
+    div.remarks p,
+    footer p {
+        font-size: 20px;
     }
 
     /* Portfolio Section */
