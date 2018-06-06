@@ -73,6 +73,7 @@ nav, footer {
     padding-left: 10px;
     position: relative;
     word-spacing: 15px;
+    width: auto;
 }
 
 footer {
@@ -549,7 +550,7 @@ span.visited:hover {
     }
 
     footer p {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
