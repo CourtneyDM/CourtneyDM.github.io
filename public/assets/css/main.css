@@ -420,6 +420,11 @@ span.visited:hover {
 
 /******* MAX-WIDTH: 960PX *******/
 @media (max-width: 960px) {
+
+    .nav:last-child {
+        padding-right: 2%;
+    }
+
     img#profile-pic {
         width: 300px;
         height: 300px;
@@ -551,6 +556,10 @@ span.visited:hover {
 
 /******* MAX-WIDTH 768PX ********/
 @media (max-width: 768px) {
+
+    .nav:last-child {
+        padding-right: 2%;
+    }
 
     footer,
     nav {
