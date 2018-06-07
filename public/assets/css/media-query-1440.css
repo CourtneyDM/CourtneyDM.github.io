@@ -1,0 +1,43 @@
+/******* MIN-WIDTH: 1440PX  *******/
+@media screen and (min-width: 1440px) {
+    div.container#page,
+    div.about-container,
+    div.project,
+    div#portfolio.portfolio-container,
+    div#skills.skill-container,
+    div.contact-container,
+    p.description.header
+     {
+        
+        width: 1440px;
+        padding: auto;
+        margin: auto;
+    }
+
+    /* Portfolio Section */
+    div#portfolio.portfolio-container,
+    div.skill-container#skills {
+        margin-bottom: 5%;
+    }
+
+    .portfolio-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img#profile-pic {
+        width: 300px;
+        height: 300px;
+    }
+
+    img.dev-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    p.description,
+    p.description.header,
+    a.visited {
+        font-size: 22px;
+    }
+}
