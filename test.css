@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+
+div.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+div.about-container,
+ {
+    flex: 1;
+    display: flex;
+    flex-direction: column;    
+}
+
+div.profile-picture,
+div.bio {
+    flex: 1;
+}
+
+#profile-pic {
+    border-radius: 3%;
+    height: auto;
+    width: 200px;
+}
+
+.project-screenshot {
+    border-radius: 3%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.dev-logo {
+    width: 75px;
+    height: auto;
+}
+
+.social-media-logo {
+    width: 50px;
+    height: 50px;
+}
