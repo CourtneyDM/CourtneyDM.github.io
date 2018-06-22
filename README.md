@@ -1,6 +1,6 @@
 # Developing a Developer
 
-## My name is Courtney, and I'm a Web Developer!
+## My name is Courtney, and I'm a Web Developer
 
 <img src="https://courtneydm.github.io/public/assets/images/profile.JPG" alt="Courtney Montgomery Profile Pic" width="250px"/>
 
