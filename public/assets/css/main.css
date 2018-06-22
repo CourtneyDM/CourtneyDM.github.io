@@ -5,9 +5,9 @@
     font-size: 16px;
 }
 
-a:visited figcaption {
+ /* a:visited {
      color: black;
-}
+} */
 
 
 /******* PAGE CONTENT *******/
@@ -47,6 +47,7 @@ p.description {
 }
 
 figcaption {
+    color: black;
     margin-top: 10%;
     font-size: 16px;
     font-weight: bold;
