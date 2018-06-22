@@ -22,4 +22,4 @@ I am proficient in front-end technologies, such as Javascript, HTML, CSS, React 
 Whether it be a job or collaboration opportunity, I would love to hear from you. Feel free to follow my repo on [Github](https://github.com/courtneydm), or you can connect with me on [LinkedIn](https://www.linkedin.com/in/courtneydm) and follow mind me on [StackOverflow](https://stackoverflow.com/users/8827802/courtney-m).
 
 ---
-Copyright &copy; Courtney Montgomery | [https://courtneydm.github.io](https://courtneydm.github.io)
+Copyright &copy; 2018 Courtney Montgomery | [https://courtneydm.github.io](https://courtneydm.github.io)
