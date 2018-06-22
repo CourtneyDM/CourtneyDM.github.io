@@ -5,7 +5,7 @@
     font-size: 16px;
 }
 
-figure a:visited {
+a:visited figcaption {
      color: black;
 }
 
