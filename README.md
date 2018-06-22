@@ -1,10 +1,8 @@
 <img src="https://courtneydm.github.io/public/assets/images/profile.JPG" alt="Courtney Montgomery Profile Pic" width="250px"/>
 
-# My name is Courtney, and I'm a Web Developer
+# Who am I
 
-## Who am I
-
-I am an IT professional-turned Full Stack MERN developer who is looking to join a team of individuals with a broad understanding of web development technologies.
+I am an IT professional-turned Full Stack MERN developer who is looking to join a team of individuals with a broad understanding of web development technologies. I am seeking opportunities in the Dallas, Texas and surrounding areas.
 
 My passion for development started during my teenage years, where the first languages I learned were Pascal and C. The desire to deepen my knowledge grew stronger; I went on to receive a CS degree from the University of North Texas.
 
