@@ -10,7 +10,7 @@ I have an extensive background in the IT industry; the past ten-plus years have 
 
 ## My Skills
 
-I am proficient in front-end technologies, such as Javascript, HTML, CSS, React and APIs. I am also proficient with back-end technologies such as MySQL, MongoDB/Mongoose and MySQL. In addition to my knowledge of web development, I have a solid foundation in lower-level Object-Oriented programming languages such as C++ and C-Sharp (C#).
+I am proficient in front-end technologies, such as Javascript, HTML, CSS, React and APIs. I am also proficient with back-end technologies such as MySQL, MongoDB/Mongoose and MySQL. In addition to my knowledge of web development, I have a solid foundation in lower-level Object-Oriented programming languages such as C++ and C-Sharp (C#). [View my resume here](https://drive.google.com/open?id=1JauLYHSuZXDIhKJvuvre7jwppgVL0H7N)
 
 ## Let's Connect
 
