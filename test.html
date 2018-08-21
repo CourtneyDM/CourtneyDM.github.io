@@ -1,209 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123636083-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push( arguments ); }
+            gtag( 'js', new Date() );
+            gtag( 'config', 'UA-123636083-1' );
+        </script>
 
-    <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+        <!-- Google Tag Manager -->
+        <script>
+            ( function ( w, d, s, l, i ) {
+                w[ l ] = w[ l ] || []; w[ l ].push( {
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                } );
+                var f = d.getElementsByTagName( s )[ 0 ],
+                    j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore( j, f );
+            } )( window, document, 'script', 'dataLayer', 'GTM-NVGHTHG' );
+        </script>
+        <!-- End Google Tag Manager -->
 
-    <link rel="stylesheet" href="test.css">
-</head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="./public/assets/images/icons/favicon.ico">
+        <title>Full Stack MERN Developer</title>
 
-<body class="animated slideInLeft">
-    <!-- NAVIGATION BAR -->
-    <nav class="nav-bar">
-        <span>Courtney Montgomery</span>
-        <ul class="nav">
-            <li>
-                <a href="#my-bio">About</a>
-            </li>
-            <li>
-                <a href="#my-skills">Skills</a>
-            </li>
-            <li>
-                <a href="#my-projects">Portfolio</a>
-            </li>
-            <li>
-                <a href="#my-contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 
+        <!-- ANIMATE CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 
-    <div class="page-container">
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
 
-        <div class="about-container">
-            <!-- ABOUT ME SECTION-->
-            <h1 id="my-bio" class="section-title">Hello, my name is Courtney and I am a Web Developer!</h1>
+        <link rel="stylesheet" href="test.css">
+    </head>
 
-            <div class="profile-picture">
-                <img id="profile-pic" src="./public/assets/images/profile.JPG" alt="Courtney Montgomery profile picture">
-            </div>
+    <body>
+        <script src="./public/assets/js/header.js"></script>
+        <script src="./public/assets/js/aboutContent.js"></script>
+        <script src="./public/assets/js/pageContent.js"></script>
 
-            <div class="bio">
-                <p class="description">
-                    I am an IT professional-turned Front-End developer who is on a journey of becoming a Full-Stack Web Developer.
-                </p>
-                <p class="description">My passion for development started during my teenage years, where the first languages I learned were Pascal
-                    and C. The desire to deepen my knowledge grew stronger; I went on to receive a CS degree from the University
-                    of North Texas.</p>
-                <p class="description">
-                    I have an extensive background in the IT industry; the past ten-plus years have allowed me to strengthen my communication,
-                    collaborative and leadership skills. I am an avid learner of all things web development, and am eager
-                    to knowledge share with others.
-                </p>
-            </div>
-
-
-        </div>
-        <div class="skills-container">
-            <div class="header">
-                <h1 id="my-skills" class="section-title">My Skills...</h1>
-                <p class="description header">I am proficient in the following Web Development technologies, along with a solid foundation in lower-level
-                    Object-Oriented programming languages such as C++ and C-Sharp (C#).</p>
-            </div>
-
-            <div class="front-end-container">
-                <h5 class="section-title">Front-End Technologies</h5>
-                <div class="front-end">
-                    <img src="./public/assets/images/icons/html5.svg" alt="HTML5 " class="dev-logo ">
-                    <img src="./public/assets/images/icons/css-3.svg" alt="CSS3 " class="dev-logo ">
-                    <img src="./public/assets/images/icons/javascript.svg" alt="Javascript" class="dev-logo">
-                    <img src="./public/assets/images/icons/jquery-1.svg" alt="jQuery" class="dev-logo">
-                    <img src="./public/assets/images/icons/bootstrap-4.svg" alt="Bootstrap 4" class="dev-logo">
-                </div>
-            </div>
-
-            <div class="back-end-container">
-                <h5 class="section-title">Back-End Technologies</h5>
-                <div class="back-end">
-                    <img src="./public/assets/images/icons/npm-1.png" alt="Node Package Manager" class="dev-logo">
-                    <img src="./public/assets/images/icons/nodejs-1.svg" alt="NodeJS " class="dev-logo ">
-                    <img src="./public/assets/images/icons/expressJS.png" alt="ExpressJS " class="dev-logo ">
-                    <img src="./public/assets/images/icons/mysql-5.svg" alt="MySQL" class="dev-logo">
-                    <img src="./public/assets/images/icons/mongodb.svg" alt="MongoDB" class="dev-logo">
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="portfolio-container">
-            <div class="header">
-                <h1 id="my-projects" class="section-title">My work...</h1>
-                <p class="description header">Checkout a few of my projects. Tools & technologies used, more details, as well as other projects can be
-                    found on my
-                    <a class="visited" href="https://github.com/courtneydm">Github Page</a>.
-            </div>
-
-            <!-- PORTFOLIO LAYOUT -->
-            <div class="project">
-                <figure>
-
-                    <h5 class="section-title">Star Wars RPG</h5>
-                    <img class="project-screenshot" src="./public/assets/images/screenshots/starwars-rpg.jpeg" alt="Star Wars RPG">
-                    <figcaption>An interactive Star Wars-themed game where the objective is to select a character and defeat the remaining
-                        characters.
-                    </figcaption>
-
-                </figure>
-            </div>
-            <div class="project">
-                <figure>
-                    <h5 class="section-title">HarkUp</h5>
-                    <img class="project-screenshot" src="./public/assets/images/screenshots/harkup.jpeg" alt="Harkup Text-To-Speech Companion">
-                    <figcaption>A text-to-speech companion that will display the readability version of a chosen URL and read it back
-                        to you.
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="project">
-                <figure>
-                    <h5 class="section-title">Hangman</h5>
-                    <img class="project-screenshot" src="./public/assets/images/screenshots/hangman.jpeg" alt="Superheros Hangman Game">
-                    <figcaption>A superhero version of the classic Hangman game. Guess the alias of a randomly select superhero, or meet
-                        your fate!
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-
-
-        <div class="contact-container">
-            <div class="header">
-                <h1 id="my-contact" class="section-title">Let's Connect...</h1>
-            </div>
-            <div class="contact-me">
-                <div class="remarks">
-                    <p>Whether it be a job or collaboration opportunity, I would love to hear from you. Find me on the social
-                        media platforms below, or submit the form to send me an email.</p>
-                    <br>
-                    <p> I look forward to connecting with you!</p>
-                </div>
-
-                <!-- SOCIAL MEDIA LINKS -->
-                <div class="social-media">
-                    <a href="mailto:courtdmontgomery@gmail.com">
-                        <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="social-media-logo ">
-                        <span class="visited">CourtDMontgomery@gmail.com</span>
-                    </a>
-                    <br>
-
-                    <a href="https://linkedin.com/in/CourtneyDM">
-                        <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile" class="social-media-logo">
-                        <span class="visited">LinkedIn.com/in/CourtneyDM</span>
-                    </a>
-                    <br>
-
-                    <a href="https://github.com/CourtneyDM">
-                        <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="social-media-logo">
-                        <span class="visited">Github.com/CourtneyDM</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="email-me">
-
-                <!-- EMAIL ME FORM -->
-                <form action="https://formspree.io/courtdmontgomery@gmail.com" method="POST">
-
-                    <div class="form-group">
-                        <label for="name">Your Name: </label>
-                        <br>
-                        <input class="input-control" type="text" name="name" id="name" placeholder="'Johnny Appleseed'">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Your Email: </label>
-                        <br>
-                        <input class="input-control" type="email" name="_replyTo" id="email" placeholder="'john_appleseed@email.com'">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message: </label>
-                        <br>
-                        <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
-                    </div>
-                    <button class="button" type="submit" value="Send">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="footer-container">
-            <p>Designed by Courtney Montgomery | &copy; 2018 All Rights Reserved</p>
-        </div>
-    </footer>
-
-    <script src="./public/assets/js/app.js"></script>
-</body>
+        <!-- <script src="./public/assets/js/frontEndIcons.js"></script> -->
+        <!-- <script src="./public/assets/js/backEndIcons.js"></script> -->
+        <!-- <script src="./public/assets/js/portfolio.js"></script> -->
+        <!-- <script src="./public/assets/js/portfolioContent.js"></script> -->
+        <!-- <script src="./public/assets/js/contactInfo.js"></script> -->
+        <script src="./public/assets/js/footer.js"></script>
+        <!-- <script src="./public/assets/js/skillsContent.js"></script> -->
+        <script src="./public/assets/js/app.js"></script>
+    </body>
 
 </html>
