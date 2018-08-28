@@ -1,8 +1,43 @@
 * {
+    box-sizing: border-box;
+    color:#000;
+    font-family: 'Architects Daughter', cursive;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Architects Daughter', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-img { 
+    border-radius: 3px;
+    height: auto;
+    width: 250px;    
+}
+
+.social-media-logo {
+    height: auto;
+    width: 50px;
+}
+
+.nonvisited {
+    color: #000;
+}
+
+.text-shadow {
+    text-shadow: 10px 10px 25px #000;
+}
+
+#logo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .navbar, footer {
@@ -22,12 +57,6 @@
     padding-left: 5%;
     padding-right: 5%;
     height: 20%;
-}
-
-.navbar-logo {
-    font-size: 30px;
-    margin: auto;
-    text-shadow: 10px 10px 25px #000;
 }
 
 ul.nav {
@@ -53,39 +82,32 @@ ul.nav li a {
     font-weight: bold;
     font-size: 24px;
     text-align: right;
-    text-decoration: none;
-    text-shadow: 10px 10px 25px #000;
+    /* text-shadow: 10px 10px 25px #000; */
 }
 
 ul.nav li a:hover,
 .social-media a:hover {
     color: #00F;
-    /* text-shadow: 10px 10px 25px #000; */
 }
 
 .social-media a:visited {
     color:#000;
 }
 
-#profile-pic {
-    width: 250px;
-    height: 250px;
-}
-
-.section-title,
-.section-subtitle {
+.section-heading,
+.section-subheading {
     font-family: 'Permanent Marker';
     letter-spacing: 3px;
     text-align: center;
     word-spacing: 5px;
 }
 
-.section-title {
+.section-heading {
     font-size: 40px;
     line-height: 40px;
 }
 
-.section-subtitle {
+.section-subheading {
     font-size: 24px;
 }
 
@@ -100,7 +122,9 @@ ul.nav li a:hover,
     padding: 5px;
 }
 
-.footer {
+.footer,
+.footer a {
+    color:#FFF;
     font-size: 14px;
     font-weight: bold;
     height: 60px;
@@ -109,47 +133,3 @@ ul.nav li a:hover,
     text-shadow: 10px 10px 25px #000;
     word-spacing: normal;
 }
-
-
-
-/* div.page-container {
-    display: flex;
-    flex-direction: column;
-}
-
-div.about-container,
- {
-    flex: 1;
-    display: flex;
-    flex-direction: column;    
-}
-
-div.profile-picture,
-div.bio {
-    flex: 1;
-}
-
-#profile-pic {
-    border-radius: 3%;
-    height: auto;
-    width: 200px;
-}
-
-.project-screenshot {
-    border-radius: 3%;
-    display: block;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-}
-
-.dev-logo {
-    width: 75px;
-    height: auto;
-}
-
-.social-media-logo {
-    width: 50px;
-    height: 50px;
-} */
