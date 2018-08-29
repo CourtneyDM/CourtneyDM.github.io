@@ -1,6 +1,16 @@
+:root {
+    --blue: #0013E8;
+    --box-shadow: 10px 10px 25px #808080;
+    --font: 'Architects Daughter', cursive;
+    --height: 60px;
+    --orange: #FF7200;
+    --text-shadow: 10px 10px 25px #000;
+    --white: #FFF;
+}
+
 * {
-    color:#000;
-    font-family: 'Architects Daughter', cursive;
+    border: .5px dotted red;
+    font-family: var(--font);
     height: auto;
     margin: 0;
     padding: 0;
@@ -8,11 +18,17 @@
 }
 
 a {
-    color: #000;
+    color: var(--orange);
     text-decoration: none;
 }
 
-.content {    
+li {
+    display: inline-block;
+}
+
+.content,
+.navbar,
+.footer {    
     padding: 0 5%;
 }
 
@@ -26,15 +42,45 @@ a {
     flex-direction: column;
 }
 
-.section-heading {
-    margin: 5%;
+.section-header {
+    margin: 5% 0;
 }
 
-
-.text-shadow {
-    text-shadow: 10px 10px 25px #000;
+.navbar,
+.footer {
+    background-color: var(--orange);
+    color: var(--white);
+    line-height: var(--height);
+    letter-spacing: 2px;
+    position: relative;
 }
 
+.navbar a,
+.footer a {
+    color: var(--white);
+}
+
+.navbar {
+    display: flex;
+}
+
+span#logo,
+ul.nav {
+    flex: 1;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+ul.nav {
+    font-size: 25px;
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+}
 
 /* .navbar,
 .footer p {
@@ -84,13 +130,7 @@ a {
      text-shadow: 10px 10px 25px #000; 
 } */
 
-.hover {
-    color: #00F;
-}
 
-.social-media a:visited {
-    color:#000;
-}
 
 .section-heading,
 .section-subheading {
@@ -144,4 +184,16 @@ a {
 .social-media-logo {
     height: auto;
     width: 50px;
+}
+
+.hover {
+    color: var(--blue);
+}
+
+.box-shadow {
+    box-shadow: var(--box-shadow);
+}
+
+.text-shadow {
+    text-shadow: var(--text-shadow);
 }
