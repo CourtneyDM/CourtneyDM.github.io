@@ -1,17 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 16px;
 }
 
-/******* PAGE CONTENT *******/
 body {
     box-sizing: border-box;
     font-family: 'Architects Daughter', cursive;
     font-size: 16px;
     letter-spacing: 1px;
 }
+
+/******* PAGE CONTENT *******/
 
 button {
     background-color: orange;

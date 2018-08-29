@@ -1,23 +1,39 @@
 * {
-    box-sizing: border-box;
     color:#000;
     font-family: 'Architects Daughter', cursive;
+    height: auto;
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
 a {
     text-decoration: none;
 }
 
-.page-container {
+.content {    
+    padding: 0 5%;
+}
+
+.content,
+.about-content,
+.skills-content  {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
+.about-content > div {
+    flex: 1;
+}
+
+
+
+
 #profile-img { 
     border-radius: 3px;
     height: auto;
+    box-shadow: 10px 10px 25px #000;
     width: 250px;    
 }
 
