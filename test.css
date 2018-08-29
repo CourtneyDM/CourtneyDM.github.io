@@ -8,6 +8,7 @@
 }
 
 a {
+    color: #000;
     text-decoration: none;
 }
 
@@ -17,92 +18,73 @@ a {
 
 .content,
 .about-content,
-.skills-content  {
+.skills-content,
+.project-content,
+.contact-content  {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
-.about-content > div {
-    flex: 1;
+.section-heading {
+    margin: 5%;
 }
 
-
-
-
-#profile-img { 
-    border-radius: 3px;
-    height: auto;
-    box-shadow: 10px 10px 25px #000;
-    width: 250px;    
-}
-
-.social-media-logo {
-    height: auto;
-    width: 50px;
-}
-
-.nonvisited {
-    color: #000;
-}
 
 .text-shadow {
     text-shadow: 10px 10px 25px #000;
 }
 
-#logo {
-    color: #FFF;
-    font-size: 30px;
-    font-weight: bold;
-}
 
-.navbar, footer {
+/* .navbar,
+.footer p {
     color: #FFF;
-    background-color: orange;
     line-height: 50px;
     letter-spacing: 2px;
     padding-left: 10px;
     position: relative;
-    word-spacing: 15px;
+    word-spacing: 10px;
     width: auto;
-}
+} */
 
-.navbar {
+/* .navbar, footer {    
+    background-color: orange;
+} */
+
+/* .navbar {
     display: flex;
     box-shadow: 10px 10px 25px #808080;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
     height: 20%;
-}
+} */
 
-ul.nav {
+/* ul.nav {
     flex: 1;
     height: auto;
     order: 2;
     text-align: right;
-}
+} */
 
-ul.nav li {
+/* ul.nav li {
     display: inline-block;
     list-style-type: none;
     margin-left: 2%;
     margin-right: 2%;
-}
+} */
 
-ul.nav li:last-child {
+/* ul.nav li:last-child {
     margin-right: 0;
-}
+} */
 
-ul.nav li a {
+/* ul.nav li a {
     color: #FFF;
     font-weight: bold;
     font-size: 24px;
     text-align: right;
-    /* text-shadow: 10px 10px 25px #000; */
-}
+     text-shadow: 10px 10px 25px #000; 
+} */
 
-ul.nav li a:hover,
-.social-media a:hover {
+.hover {
     color: #00F;
 }
 
@@ -131,14 +113,9 @@ ul.nav li a:hover,
     font-weight: bold;
 }
 
-.dev-logo {
-    width: 75px;
-    height: 75px;
-    margin-top: 5%;
-    padding: 5px;
-}
 
-.footer,
+
+/* .footer p,
 .footer a {
     color:#FFF;
     font-size: 14px;
@@ -148,4 +125,23 @@ ul.nav li a:hover,
     text-align: center;
     text-shadow: 10px 10px 25px #000;
     word-spacing: normal;
+} */
+
+#profile-img { 
+    border-radius: 3px;
+    height: auto;
+    box-shadow: 10px 10px 25px #000;
+    width: 250px;    
+}
+
+.dev-logo {
+    width: 75px;
+    height: 75px;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+.social-media-logo {
+    height: auto;
+    width: 50px;
 }

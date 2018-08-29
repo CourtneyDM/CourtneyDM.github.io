@@ -102,17 +102,17 @@
                             (C#).
                         </p>
                     </div>
+
                     <div class="section-content">
-                        <div class="sub-section" id='front-end'>
+                        <div class="sub-section">
                             <h5 class="subheading">Front-End Technologies</h5>
-                            <div class="fullstack">
+                            <div class="fullstack" id='front-end'>
                                 <!-- Add front-end icons here -->
                             </div>
                         </div>
-
-                        <div class="sub-section" id='back-end'>
+                        <div class="sub-section">
                             <h5 class="subheading">Back-End Technologies</h5>
-                            <div class="fullstack">
+                            <div class="fullstack" id='back-end'>
                                 <!-- Add back-end icons here -->
                             </div>
                         </div>
@@ -120,17 +120,17 @@
                 </div>
 
 
-                <div class="section-container" id='projects'>
+                <div class="section-container project-content" id='projects'>
                     <div class="section-header">
-                        <h1 class="section-heading">My work...</h1>
+                        <h1 class="section-heading">My Work...</h1>
                         <p class="description">Checkout a few of my projects. Tools & technologies used, more details, as
                             well as other projects can be found on my
-                            <a class='nonvisited' href='https://github.com/courtneydm' target='_blank'>Github Page</a>.
+                            <a href='https://github.com/courtneydm' target='_blank'>Github Page</a>.
                     </div>
 
                     <!-- PORTFOLIO LAYOUT -->
                     <!-- Use JS to loop through projects object -->
-                    <div class='portfolio'>
+                    <div class='section-content ' id='portfolio'>
                         <!-- <figure>
                         <h5 class="subheading">Star Wars RPG</h5>
                         <img class="project-screenshot" src="./public/assets/images/screenshots/starwars-rpg.jpeg" alt="Star Wars RPG">
@@ -141,71 +141,73 @@
                     </div>
                 </div>
 
-                <div class="section-container" id="contact">
+                <div class="section-container contact-content" id="contact">
                     <div class="section-header">
                         <h1 class="section-heading">Let's Connect...</h1>
                         <p>Whether it be a job or collaboration opportunity, I would love to hear from you. Find me on the
                             social media platforms below, or submit the form to send me an email.</p>
                         <br />
                         <p> I look forward to connecting with you!</p>
-                        <div class="contact-me">
-                        </div>
+                    </div>
+                    <div class="section-content">
 
                         <!-- SOCIAL MEDIA LINKS -->
                         <div class="social-media">
                             <a href="mailto:courtdmontgomery@gmail.com">
                                 <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="social-media-logo ">
-                                <span class="nonvisited">CourtDMontgomery@gmail.com</span>
+                                <span>CourtDMontgomery@gmail.com</span>
                             </a>
                             <br />
 
-                            <a class='nonvisited' href="https://linkedin.com/in/CourtneyDM" target='_blank'>
+                            <a href="https://linkedin.com/in/CourtneyDM" target='_blank'>
                                 <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile" class="social-media-logo">
-                                <span class="nonvisited">LinkedIn.com/in/CourtneyDM</span>
+                                <span>LinkedIn.com/in/CourtneyDM</span>
                             </a>
-                            <br/>
+                            <br />
 
-                            <a class='nonvisited' href="https://github.com/CourtneyDM" target='_blank'>
+                            <a href="https://github.com/CourtneyDM" target='_blank'>
                                 <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="social-media-logo">
-                                <span class="nonvisited">Github.com/CourtneyDM</span>
+                                <span>Github.com/CourtneyDM</span>
                             </a>
+                        </div>
+
+                        <!-- EMAIL FORM -->
+                        <div class='email-form'>
+                            <form action="https://formspree.io/courtdmontgomery@gmail.com" method="POST">
+
+                                <div class="form-group">
+                                    <label for="name">Your Name: </label>
+                                    <br />
+                                    <input class="input-control" type="text" name="name" id="name" placeholder="'Johnny Appleseed'">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Your Email: </label>
+                                    <br />
+                                    <input class="input-control" type="email" name="_replyTo" id="email" placeholder="'john_appleseed@email.com'">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message: </label>
+                                    <br />
+                                    <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
+                                </div>
+                                <button class="button" type="submit" value="Send">Send Message</button>
+                            </form>
                         </div>
                     </div>
 
-                    <!-- EMAIL ME FORM -->
-                    <div class='email-form'></div>
-                    <form action="https://formspree.io/courtdmontgomery@gmail.com" method="POST">
-
-                        <div class="form-group">
-                            <label for="name">Your Name: </label>
-                            <br>
-                            <input class="input-control" type="text" name="name" id="name" placeholder="'Johnny Appleseed'">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Your Email: </label>
-                            <br>
-                            <input class="input-control" type="email" name="_replyTo" id="email" placeholder="'john_appleseed@email.com'">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Message: </label>
-                            <br>
-                            <textarea class="input-control" name="message" id="message" rows="5" placeholder="Your message here..."></textarea>
-                        </div>
-                        <button class="button" type="submit" value="Send">Send Message</button>
-                    </form>
                 </div>
             </div>
         </div>
 
         <footer>
             <div class="footer">
-                <p>Designed by <a href='#about' class='nonvisited'>Courtney Montgomery</a> | &copy; 2018 All Rights Reserved</p>
+                <p>Designed by <a href='#about'>Courtney Montgomery</a> | &copy; 2018 All Rights Reserved</p>
             </div>
         </footer>
 
-        <!-- <script src="./public/assets/js/app.js"></script> -->
+        <script src="./public/assets/js/app.js"></script>
     </body>
 
 </html>
