@@ -38,6 +38,7 @@ showProjects = ( elementID, myArr ) => {
 
             title.className = 'subheading';
             caption.className = 'caption';
+            img.className = 'proj-img';
 
 
             img.setAttribute( 'src', item.img );
