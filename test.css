@@ -128,7 +128,8 @@ ul.nav {
 }
 
 .caption {
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 18px;
 }
 
 .dev-logo {

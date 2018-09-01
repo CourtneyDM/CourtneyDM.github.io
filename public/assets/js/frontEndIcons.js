@@ -19,4 +19,8 @@ const frontEndLogos = [
         img: './public/assets/images/icons/bootstrap-4.svg',
         name: 'Bootstrap'
     },
+    {
+        img: './public/assets/images/icons/reactjs.png',
+        name: 'ReactJS'
+    },
 ];

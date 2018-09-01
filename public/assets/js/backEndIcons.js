@@ -19,4 +19,12 @@ const backEndLogos = [
         img: './public/assets/images/icons/mysql-5.svg',
         name: 'MySQL'
     },
+    {
+        img: './public/assets/images/icons/passport.png',
+        name: 'PassportJS'
+    },
+    {
+        img: './public/assets/images/icons/firebase_logo.png',
+        name: 'Google Firebase'
+    },
 ];
