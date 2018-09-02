@@ -1,43 +1,38 @@
 const projects = [
     {
-        img: "./public/assets/images/screenshots/waste_not.jpg",
         title: "Waste Not",
-        caption: "An application where the purpose is to help reduce both food waste and food hunger. Built using MongoDB, Express, ReactJS, Node, jQuery and Bootstrap.",
+        img: "./public/assets/images/screenshots/waste_not.jpg",
+        caption: "A platform to help educated the community about preserving food and fighting hunger. Our purpose is to bridge the gap between food waste by hunger by managing your food inventory and connecting with non-profit organizations to distribute overage of food where needed.",
         url: "https://waste-not-dallas.herokuapp.com"
     },
     {
-        img: "./public/assets/images/screenshots/harkup_tts.jpg",
         title: "HarkUp",
-        caption: "A talk-to-speech companion that takes the URL of an article, converts it to readable text and then reads the article. Built using MySQL, Express, Node, Google Firebase, Handlebars and JavaScript",
+        img: "./public/assets/images/screenshots/harkup_tts.jpg",
+        caption: "A talk-to-speech companion that takes the URL of an article, converts it to readable text and then plays back the article.",
         url: "https://harkup.herokuapp.com"
     },
     {
-        img: "./public/assets/images/screenshots/starwars_game.jpg",
         title: "Star Wars RPG",
-        caption: "An interactive Star Wars-themed game where the objective is to select a character and defeat the remaining characters. Built using JavaScript, jQuery, Bootstrap, HTML5 and CSS3.",
+        img: "./public/assets/images/screenshots/starwars_game.jpg",
+        caption: "An interactive Star Wars-themed game where the objective is to select a character and defeat the remaining characters. May the Force be with you.",
         url: "https://courtneydm.github.io/game-star-wars"
     },
     {
-        img: "./public/assets/images/screenshots/memory_challenge.jpg",
         title: "Memory Challenge",
-        caption: "This will be some description for the portfolio",
+        img: "./public/assets/images/screenshots/memory_challenge.jpg",
+        caption: "An interactive game that tests your memory skills. Up for a challenge? Click the image to see if you can get a perfect score!",
         url: "https://domino-memory-challenge.herokuapp.com"
     },
     {
-        img: "./public/assets/images/screenshots/hangman.jpg",
         title: "Hangman RPG",
-        caption: "This will be some description for the portfolio",
+        img: "./public/assets/images/screenshots/hangman.jpg",
+        caption: "A classic game of Hangman but with a superhero twist. Guess the alias of a randomly selected superhero, or meet your fate!",
         url: "https://courtneydm.github.io/game-hangman"
     },
     {
-        img: "./public/assets/images/screenshots/crystals_game.jpg",
         title: "Crystals RPG",
-        caption: "This will be some description for the portfolio",
+        img: "./public/assets/images/screenshots/crystals_game.jpg",
+        caption: "A fun, interactive game where you gather enough crystals without going over the randomly generated target score.",
         url: "https://courtneydm.github.io/game-crystals"
     }
-    // {
-    //     img: "./public/assets/images/screenshots/placeholder.jpeg",
-    //     title: "Project 6",
-    //     caption: "This will be some description for the portfolio"
-    // }
 ]

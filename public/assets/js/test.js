@@ -32,20 +32,23 @@ showProjects = ( elementID, myArr ) => {
             const title = document.createElement( 'h5' );
             const caption = document.createElement( 'figcaption' );
             const img = document.createElement( 'img' );
+            const url = document.createElement( 'a' );
 
             title.innerText = item.title;
+
             caption.innerText = item.caption;
 
             title.className = 'subheading';
             caption.className = 'caption';
             img.className = 'proj-img';
 
-
             img.setAttribute( 'src', item.img );
             img.setAttribute( 'alt', item.title );
+            url.setAttribute( 'href', item.url );
 
+            url.appendChild( img );
             figure.appendChild( title );
-            figure.appendChild( img );
+            figure.appendChild( url );
             figure.appendChild( caption );
 
             document.getElementById( elementID ).appendChild( figure );
@@ -61,7 +64,7 @@ showProjects = ( elementID, myArr ) => {
         } );
     }
 }
-
+// document.querySelectorAll('a.hover').className = 
 showProjects( 'portfolio', projects );
 showProjects( 'front-end', frontEndLogos );
 showProjects( 'back-end', backEndLogos );
