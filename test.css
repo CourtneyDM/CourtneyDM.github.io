@@ -23,8 +23,21 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--blue);
+    text-shadow: var(--text-shadow);
+}
+
 li {
     display: inline-block;
+}
+
+figure {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% 0;
 }
 
 .content,
@@ -39,7 +52,6 @@ li {
 .bio,
 .skills,
 .project-content,
-.projects,
 .contact-info
 {
     box-sizing: border-box;
@@ -48,17 +60,16 @@ li {
 
 .content,
 .bio,
-.project-content {
+.project-content { 
     flex-direction: column;
 }
 
-figure,
 span#logo,
 ul.nav,
 .profile,
 .f-end,
 .b-end,
-.projects,
+.project,
 .social-media,
 .email-form {
     flex:1; 
@@ -68,11 +79,17 @@ ul.nav,
     flex: 3;
     justify-content: space-between;
 }
-
 .projects {
-    border: .5px dotted red;
-    justify-content: space-between;
-    /* vertical-align: baseline; */
+    /* border: 2px dotted green; */
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+.project {
+    /* border: .5px dotted red; */
+    box-sizing: border-box;
+    flex: 1;
 }
 
 .section-header,
@@ -151,9 +168,9 @@ ul.nav {
 }
 
 .caption {
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+    word-spacing: 2px;
 }
 
 
@@ -170,17 +187,4 @@ ul.nav {
 
 .footer {
     text-align: center;
-}
-
-/* Event handling attributes */
-.hover {
-    color: var(--blue);
-}
-
-.box-shadow {
-    box-shadow: var(--box-shadow);
-}
-
-.text-shadow {
-    text-shadow: var(--text-shadow);
 }

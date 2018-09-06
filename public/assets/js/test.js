@@ -24,7 +24,7 @@ $( document ).ready( function () {
 } );
 
 // Add projects and technology icons to the DOM
-showProjects = ( elementID, myArr ) => {
+showImages = ( elementID, myArr ) => {
     // If array is portfolio, add to "My Skills..." section
     if ( elementID === 'portfolio' ) {
         myArr.map( item => {
@@ -43,7 +43,7 @@ showProjects = ( elementID, myArr ) => {
             caption.className = 'caption';
             img.className = 'proj-img';
 
-            div.setAttribute( 'class', 'projects' );
+            div.setAttribute( 'class', 'project' );
             img.setAttribute( 'src', item.img );
             img.setAttribute( 'alt', item.title );
             url.setAttribute( 'href', item.url );
@@ -69,6 +69,15 @@ showProjects = ( elementID, myArr ) => {
     }
 }
 
-showProjects( 'portfolio', projects );
-showProjects( 'front-end', frontEndLogos );
-showProjects( 'back-end', backEndLogos );
+// addAttributes = () => {
+//     let link = document.querySelectorAll( 'a.hover' );
+//     // link.setAttribute( 'class', 'text-shadow' );
+//     link.className = 'text-shadow';
+// }
+
+// document.addEventListener( 'mouseover', addAttributes );
+
+
+showImages( 'portfolio', projects );
+showImages( 'front-end', frontEndLogos );
+showImages( 'back-end', backEndLogos );
