@@ -28,6 +28,7 @@ showProjects = ( elementID, myArr ) => {
     // If array is portfolio, add to "My Skills..." section
     if ( elementID === 'portfolio' ) {
         myArr.map( item => {
+            const div = document.createElement( 'div' );
             const figure = document.createElement( 'figure' );
             const title = document.createElement( 'h5' );
             const caption = document.createElement( 'figcaption' );
@@ -42,6 +43,7 @@ showProjects = ( elementID, myArr ) => {
             caption.className = 'caption';
             img.className = 'proj-img';
 
+            div.setAttribute( 'class', 'projects' );
             img.setAttribute( 'src', item.img );
             img.setAttribute( 'alt', item.title );
             url.setAttribute( 'href', item.url );
@@ -51,7 +53,9 @@ showProjects = ( elementID, myArr ) => {
             figure.appendChild( url );
             figure.appendChild( caption );
 
-            document.getElementById( elementID ).appendChild( figure );
+            div.appendChild( figure );
+
+            document.getElementById( elementID ).appendChild( div );
         } );
     }
     // Otherwise, put the technology icons where they belong
@@ -64,7 +68,7 @@ showProjects = ( elementID, myArr ) => {
         } );
     }
 }
-// document.querySelectorAll('a.hover').className = 
+
 showProjects( 'portfolio', projects );
 showProjects( 'front-end', frontEndLogos );
 showProjects( 'back-end', backEndLogos );
