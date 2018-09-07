@@ -12,7 +12,7 @@ const projects = [
         url: "https://harkup.herokuapp.com"
     },
     {
-        title: "Star Wars RPG",
+        title: "Star Wars Game",
         img: "public/assets/images/projects/starwars_game.jpg",
         caption: "An interactive Star Wars-themed game where the objective is to select a character and defeat the remaining characters. May the Force be with you.",
         url: "https://courtneydm.github.io/game-star-wars"
@@ -24,13 +24,13 @@ const projects = [
         url: "https://domino-memory-challenge.herokuapp.com"
     },
     {
-        title: "Hangman RPG",
+        title: "Hangman Game",
         img: "public/assets/images/projects/hangman.jpg",
         caption: "A classic game of Hangman but with a superhero twist. Guess the alias of a randomly selected superhero, or meet your fate!",
         url: "https://courtneydm.github.io/game-hangman"
     },
     {
-        title: "Crystals RPG",
+        title: "Crystals Game",
         img: "public/assets/images/projects/crystals_game.jpg",
         caption: "A fun, interactive game where you gather enough crystals without going over the randomly generated target score.",
         url: "https://courtneydm.github.io/game-crystals"

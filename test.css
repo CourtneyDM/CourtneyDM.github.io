@@ -75,6 +75,13 @@ ul.nav,
     flex:1; 
 }
 
+.section-container,
+.sub-section  {
+    margin: 5% 0;
+}
+
+
+
 .bio {
     flex: 3;
     justify-content: space-between;
@@ -153,7 +160,7 @@ ul.nav {
     border-radius: 5px;
     box-shadow: var(--box-shadow);
     height: auto;
-    width: 350px;    
+    width: 400px;    
 }
 
 .dev-logo {
