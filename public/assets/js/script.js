@@ -25,7 +25,7 @@ $(document).ready(function() {
 	});
 });
 
-myFunction = () => {
+mobileNavbar = () => {
 	let x = document.querySelector("#nav");
 	if (x.className === "nav") {
 		x.className += " responsive";

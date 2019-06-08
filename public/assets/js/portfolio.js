@@ -3,7 +3,7 @@ const projects = [
 		title: "Waste Not",
 		img: "public/assets/images/projects/waste_not.jpg",
 		caption:
-			"A platform to help educate the community about preserving food and fighting hunger. The goal is to bridge the gap between food waste by managing your food inventory and connecting with non-profit organizations to distribute overage of food where needed.",
+			"A platform to help educate the community about preserving food and fighting hunger. The goal is to bridge the gap between food waste and hunger by managing your food inventory and connecting you with non-profit organizations to distribute overage of food where needed.",
 		url: "https://waste-not-dallas.herokuapp.com"
 	},
 	{
