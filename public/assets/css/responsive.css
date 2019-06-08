@@ -1,0 +1,284 @@
+/* Media query for large, HD screens */
+@media screen and (min-width: 1920px) {
+	#avatar {
+		width: auto;
+		height: auto;
+	}
+
+	p,
+	a,
+	ul li a,
+	label {
+		font-size: 25px;
+	}
+
+	nav {
+		height: auto;
+	}
+
+	.logo {
+		width: 15%;
+		height: auto;
+	}
+
+	#brand {
+		font-size: 50px;
+	}
+
+	.proj-img {
+		width: 700px;
+		height: auto;
+	}
+
+	.proj-img:hover {
+		width: 740px;
+	}
+
+	.caption {
+		font-size: 18px;
+	}
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) and (max-width: 1900px) {
+	#avatar {
+		width: 350px;
+		height: auto;
+	}
+
+	.logo {
+		width: 15%;
+		height: auto;
+	}
+
+	.profile.flex-container {
+		justify-content: center;
+		align-content: center;
+	}
+
+	.proj-img {
+		width: 300px;
+		height: auto;
+	}
+
+	.proj-img:hover {
+		width: 340px;
+	}
+}
+
+/* Media query for large screens & mobile devices */
+@media screen and (min-width: 1080px) and (max-width: 1200px) {
+	p,
+	a,
+	label {
+		font-size: 16px;
+	}
+	#avatar {
+		width: 90%;
+	}
+
+	.proj-img {
+		width: 300px;
+		height: auto;
+	}
+
+	.proj-img:hover {
+		width: 340px;
+	}
+}
+
+/* Media query for mid-range screens & mobile devices*/
+@media screen and (min-width: 960px) and (max-width: 1080px) {
+	p,
+	a,
+	label {
+		font-size: 16px;
+	}
+
+	#avatar {
+		width: 45%;
+	}
+
+	/* Flexbox Containers */
+	.profile.flex-container,
+	.technology.flex-container {
+		flex-flow: column;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.profile-img.flex-content,
+	.bio.flex-content,
+	.front-end.flex-content,
+	.back-end.flex-content {
+		width: 90%;
+		margin: auto;
+	}
+
+	/* Project Hover Transitions */
+	.proj-img {
+		width: 300px;
+		--webkit-transition: width 1s;
+		transition: width 1s;
+	}
+
+	.proj-img:hover {
+		width: 320px;
+	}
+
+	.social-media a {
+		font-size: 14px;
+	}
+}
+
+/* Media query for small screens & mobile devices */
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	p,
+	a,
+	label {
+		font-size: 16px;
+	}
+
+	#brand {
+		font-size: 30px;
+	}
+
+	ul li a {
+		font-size: 16px;
+		margin: 1%;
+	}
+
+	.profile.flex-container,
+	.technology.flex-container,
+	.projects.flex-container {
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.profile-img.flex-content,
+	.bio.flex-content,
+	.front-end.flex-content,
+	.back-end.flex-content,
+	.project.flex-content {
+		width: 90%;
+		margin: auto;
+	}
+
+	.proj-img {
+		padding: 0;
+		margin: 0;
+		width: 400px;
+		height: auto;
+		justify-content: center;
+		--webkit-transition: width 1s;
+		transition: width 1s;
+	}
+
+	.proj-img:hover {
+		width: 440px;
+	}
+
+	#social-media.logo {
+		width: 25%;
+		height: auto;
+	}
+
+	.social-media a {
+		font-size: 18px;
+	}
+}
+
+/* Media query for standard mobile devices screens */
+@media screen and (min-width: 640px) and (max-width: 768px) {
+	p,
+	a,
+	label,
+	ul li a {
+		font-size: 14px;
+	}
+
+	#brand {
+		font-size: 24px;
+	}
+
+	.profile.flex-container,
+	.technology.flex-container,
+	.projects.flex-container {
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.profile-img.flex-content,
+	.bio.flex-content,
+	.front-end.flex-content,
+	.back-end.flex-content,
+	.project.flex-content {
+		width: 90%;
+		margin: auto;
+	}
+
+	.proj-img {
+		padding: 0;
+		margin: 0;
+		width: 350px;
+		height: auto;
+		justify-content: center;
+		--webkit-transition: width 1s;
+		transition: width 1s;
+	}
+
+	.proj-img:hover {
+		width: 370px;
+	}
+
+	.caption {
+		font-size: 12px;
+	}
+}
+
+/* Media query for small mobile devices screens */
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	p,
+	a,
+	ul li a {
+		font-size: 14px;
+	}
+
+	#avatar {
+		width: 200px;
+		height: auto;
+	}
+
+	.logo,
+	#social-media.logo {
+		width: 20%;
+	}
+
+	.profile.flex-container,
+	.technology.flex-container,
+	.projects.flex-container,
+	.contact-info.flex-container {
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.profile-img.flex-content,
+	.bio.flex-content,
+	.front-end.flex-content,
+	.back-end.flex-content,
+	.project.flex-content,
+	.social-media.flex-content,
+	.email-form.flex-content {
+		width: 90%;
+		margin: auto;
+	}
+	.proj-img {
+		padding: 0;
+		margin: 0;
+		width: 300px;
+		height: auto;
+	}
+}

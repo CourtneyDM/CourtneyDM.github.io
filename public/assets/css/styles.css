@@ -1,0 +1,220 @@
+:root {
+	--blue: #0049e8e7;
+	--box-shadow: 10px 10px 25px #808080;
+	--font-heading: "Economica", sans-serif;
+	--font-default: "Monda", sans-serif;
+	--grey: #808080;
+	--height: 60px;
+	--lightgrey: #b6b6b6;
+	--orange: #ff7200;
+	--text-shadow: 10px 10px 25px #000;
+	--white: #e5f2ee;
+}
+
+/* Page Defaults styling */
+* {
+	/* border: 0.5px dotted red; */
+	font-family: var(--font-default);
+	font-size: 18px;
+	height: auto;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+	width: auto;
+} /* End of page defaults */
+
+/* Hyperinks and buttons styling */
+a {
+	color: var(--orange);
+	text-decoration: none;
+}
+
+a:hover,
+button:hover {
+	color: var(--blue);
+	text-shadow: var(--text-shadow);
+}
+
+ul.nav {
+	flex: 1;
+}
+
+ul li a {
+	font-size: 20px;
+	margin: 10%;
+	padding: auto;
+}
+
+ul li a:hover {
+	text-shadow: none;
+}
+
+li {
+	display: inline-block;
+} /* End of hyperlink and buttons*/
+
+/* Navigation bar styling */
+.navbar,
+.content,
+.footer {
+	padding: 0 8%;
+}
+
+.navbar,
+.navbar *,
+.footer,
+.footer * {
+	background-color: var(--orange);
+	color: var(--white);
+	line-height: var(--height);
+	position: relative;
+}
+
+.navbar {
+	box-shadow: var(--box-shadow);
+}
+
+.nav {
+	text-align: right;
+} /* End of navigation bar*/
+
+/* Section headings, subheadings and navbar logo styling */
+.heading,
+.subheading,
+#brand {
+	font-family: var(--font-heading);
+	text-align: center;
+	word-spacing: 3px;
+	/* font-weight: normal; */
+}
+
+.heading {
+	font-size: 40px;
+	margin-bottom: 2%;
+}
+
+#brand,
+.subheading {
+	font-size: 35px;
+}
+
+#brand {
+	font-weight: bold;
+}
+
+.bio p {
+	margin: 2% 0;
+}
+
+.section {
+	/* border: 1px dotted var(--orange); */
+	margin: 3% 0%;
+	padding: 2%;
+}
+
+#about,
+#skills,
+#portfolio {
+	border-bottom: 2px solid var(--grey);
+} /* End of section heading, subheadings and navbar logo */
+
+/* Flexbox Container styling */
+.flex-container {
+	/* border: 1px dotted red; */
+	box-sizing: border-box;
+	display: flex;
+} /* End of Flexbox Container*/
+
+/* Flexbox Content styling */
+.flex-content {
+	/* border: 1px dotted green; */
+	flex: 1;
+	flex-flow: row wrap;
+	height: auto;
+	justify-content: space-between;
+	margin: 1%;
+	padding: 1%;
+	width: 40%;
+} /* End of Flexbox Content */
+
+/* Flexbox Attributes */
+.projects {
+	flex: 1;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 3% auto;
+} /* End of Flexbox Attributes*/
+
+.profile-img,
+.fullstack {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	/* border: 1px dotted green; */
+}
+
+/* "Portfolio" styling */
+figure {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 2% 0;
+}
+
+.caption {
+	font-size: 14px;
+	text-align: center;
+	word-spacing: 2px;
+	padding: 2%;
+}
+
+.proj-img {
+	box-shadow: var(--box-shadow);
+	--webkit-transition: width 1s;
+	transition: width 1s;
+} /* End of "Portfolio" */
+
+/* Profile picture styling */
+#avatar {
+	flex: 1;
+	border-radius: 5px;
+	box-shadow: var(--box-shadow);
+	height: auto;
+	width: 325px;
+} /*End of profile picture*/
+
+/* "Let's Get In Touch" styling */
+.logo {
+	width: 10%;
+	height: auto;
+	margin: 3%;
+}
+
+#social-media {
+	vertical-align: middle;
+}
+
+#social-media.logo {
+	width: 90px;
+}
+
+input,
+textarea {
+	width: 100%;
+	border: 1px solid var(--grey);
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.button {
+	background-color: var(--orange);
+	border-radius: 5px;
+	color: white;
+	padding: 1%;
+} /* End of "Let's Get In Touch" */
+
+/* Footer styling*/
+.footer {
+	text-align: center;
+} /*End of Footer*/
