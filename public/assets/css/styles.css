@@ -48,21 +48,6 @@ button:hover {
 	word-spacing: 3px;
 }
 
-/* ul.nav {
-	flex: 1;
-}
-
-ul li a {
-	font-size: 20px;
-	margin: 10%;
-	padding: auto;
-	word-spacing: 3px;
-}
-
-ul li a:hover {
-	text-shadow: none;
-} */
-
 li {
 	display: inline-block;
 } /* End of hyperlink and buttons*/

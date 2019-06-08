@@ -3,11 +3,11 @@ const projects = [
 		title: "Waste Not",
 		img: "public/assets/images/projects/waste_not.jpg",
 		caption:
-			"A platform to help educate the community about preserving food and fighting hunger. Our purpose is to bridge the gap between food waste by hunger by managing your food inventory and connecting with non-profit organizations to distribute overage of food where needed.",
+			"A platform to help educate the community about preserving food and fighting hunger. The goal is to bridge the gap between food waste by managing your food inventory and connecting with non-profit organizations to distribute overage of food where needed.",
 		url: "https://waste-not-dallas.herokuapp.com"
 	},
 	{
-		title: "Hangman Game",
+		title: "Hangman",
 		img: "public/assets/images/projects/hangman.jpg",
 		caption:
 			"A classic game of Hangman but with a superhero twist. Guess the alias of a randomly selected superhero, or meet your fate!",
