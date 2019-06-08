@@ -35,7 +35,20 @@ button:hover {
 	text-shadow: var(--text-shadow);
 }
 
-ul.nav {
+.nav {
+	flex: 1;
+	overflow: hidden;
+}
+
+.nav a {
+	font-size: 20px;
+	margin: 2%;
+	padding: auto;
+	text-align: center;
+	word-spacing: 3px;
+}
+
+/* ul.nav {
 	flex: 1;
 }
 
@@ -48,7 +61,7 @@ ul li a {
 
 ul li a:hover {
 	text-shadow: none;
-}
+} */
 
 li {
 	display: inline-block;
@@ -73,6 +86,14 @@ li {
 
 .navbar {
 	box-shadow: var(--box-shadow);
+}
+
+/* ul.nav .icon {
+	display: none;
+} */
+
+.navbar .icon {
+	display: none;
 }
 
 .nav {

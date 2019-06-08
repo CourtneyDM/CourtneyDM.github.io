@@ -189,61 +189,26 @@
 	}
 }
 
-/* Media query for standard mobile devices screens */
-@media screen and (min-width: 640px) and (max-width: 768px) {
+/* Media query for small and standard mobile devices screens */
+@media screen and (min-width: 320px) and (max-width: 768px) {
 	p,
 	a,
 	label,
-	ul li a {
+	.input-control,
+	button {
 		font-size: 14px;
+	}
+
+	.heading {
+		font-size: 30px;
+	}
+
+	.subheading {
+		font-size: 20px;
 	}
 
 	#brand {
 		font-size: 24px;
-	}
-
-	.profile.flex-container,
-	.technology.flex-container,
-	.projects.flex-container {
-		flex-direction: column;
-		justify-content: center;
-		align-content: center;
-	}
-
-	.profile-img.flex-content,
-	.bio.flex-content,
-	.front-end.flex-content,
-	.back-end.flex-content,
-	.project.flex-content {
-		width: 90%;
-		margin: auto;
-	}
-
-	.proj-img {
-		padding: 0;
-		margin: 0;
-		width: 350px;
-		height: auto;
-		justify-content: center;
-		--webkit-transition: width 1s;
-		transition: width 1s;
-	}
-
-	.proj-img:hover {
-		width: 370px;
-	}
-
-	.caption {
-		font-size: 12px;
-	}
-}
-
-/* Media query for small mobile devices screens */
-@media screen and (min-width: 320px) and (max-width: 640px) {
-	p,
-	a,
-	ul li a {
-		font-size: 14px;
 	}
 
 	#avatar {
@@ -253,7 +218,40 @@
 
 	.logo,
 	#social-media.logo {
-		width: 20%;
+		width: 15%;
+	}
+
+	a:hover {
+		text-shadow: none;
+	}
+
+	.nav a:not(:last-child) {
+		display: none;
+	}
+
+	.nav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.nav.responsive {
+		position: relative;
+	}
+
+	.nav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.nav.responsive a {
+		float: none;
+		display: block;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 14px;
+		word-spacing: 0;
 	}
 
 	.profile.flex-container,
@@ -273,12 +271,34 @@
 	.social-media.flex-content,
 	.email-form.flex-content {
 		width: 90%;
-		margin: auto;
+		margin: 2%;
 	}
+
 	.proj-img {
 		padding: 0;
 		margin: 0;
 		width: 300px;
 		height: auto;
+		justify-content: center;
+		--webkit-transition: width 1s;
+		transition: width 1s;
+	}
+
+	.proj-img:hover {
+		width: 370px;
+	}
+
+	.caption,
+	.footer p,
+	.footer a {
+		font-size: 12px;
+	}
+
+	#social-media {
+		margin: 2px 0;
+	}
+
+	.social-media a {
+		font-size: 10px;
 	}
 }

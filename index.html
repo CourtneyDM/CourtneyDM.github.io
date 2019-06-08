@@ -38,16 +38,18 @@
         <title>Full-Stack Developer | Dallas, TX</title>
         <link rel="shortcut icon" href="./public/assets/images/icons/favicon.ico">
 
-        <!-- Homegrown CSS -->
-        <link rel="stylesheet" href="./public/assets/css/styles.css">
-        <link rel="stylesheet" href="./public/assets/css/responsive.css">
-
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Economica|Monda&display=swap" rel="stylesheet">
 
-        <!-- Animate CSS -->
+        <!-- Homegrown CSS -->
+        <link rel="stylesheet" href="./public/assets/css/styles.css">
+        <link rel="stylesheet" href="./public/assets/css/responsive.css">
+
+        <!-- Animate & Font-Awesome CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -61,7 +63,16 @@
             <header class='header'>
                 <nav class="navbar flex-container">
                     <span id='brand'>Courtney Montgomery</span>
-                    <ul class="nav">
+                    <div class="nav" id="nav">
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <!-- <ul class="nav">
                         <li>
                             <a href="#about">About</a>
                         </li>
@@ -74,7 +85,12 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
-                    </ul>
+                        <li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul> -->
                 </nav>
             </header>
 

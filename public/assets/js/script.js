@@ -25,6 +25,15 @@ $(document).ready(function() {
 	});
 });
 
+myFunction = () => {
+	let x = document.querySelector("#nav");
+	if (x.className === "nav") {
+		x.className += " responsive";
+	} else {
+		x.className = "nav";
+	}
+};
+
 // Add projects and technology icons to the DOM
 showImages = (elementID, myArr) => {
 	// If array is portfolio, add to "Portfolio" section
