@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 // Add projects and technology icons to the DOM
 showImages = (elementID, myArr) => {
-	// If array is portfolio, add to "My Skills..." section
+	// If array is portfolio, add to "Portfolio" section
 	if (elementID === "portfolio") {
 		myArr.map(item => {
 			const div = document.createElement("div");
@@ -45,7 +45,7 @@ showImages = (elementID, myArr) => {
 			caption.className = "caption";
 			img.className = "proj-img";
 
-			div.setAttribute("class", "project");
+			div.setAttribute("class", "project flex-content");
 			img.setAttribute("src", item.img);
 			img.setAttribute("alt", item.title);
 			url.setAttribute("href", item.url);

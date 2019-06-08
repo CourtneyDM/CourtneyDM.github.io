@@ -3,9 +3,8 @@
 
     <head>
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123636083-1"></script>
         <script>
@@ -30,12 +29,20 @@
         </script> -->
         <!-- End Google Tag Manager -->
 
+        <meta name="description" content="Full Stack Web Developer in Dallas, TX" />
+        <meta name="keywords"
+            content="front-end developer, back-end developer, web developer, ReactJS, MongoDB, ExpressJS, NodeJS, JavaScript, HTML, CSS" />
+        <meta name="robots" content="nofollow" />
+        <meta http-equiv="author" content="Courtney Montgomery" />
+
         <title>Full-Stack Developer | Dallas, TX</title>
         <link rel="shortcut icon" href="./public/assets/images/icons/favicon.ico">
-        <link rel="stylesheet" href="styles.css">
+
+        <!-- Homegrown CSS -->
+        <link rel="stylesheet" href="./public/assets/css/styles.css">
+        <link rel="stylesheet" href="./public/assets/css/responsive.css">
 
         <!-- Google Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Economica|Monda&display=swap" rel="stylesheet">
 
@@ -52,7 +59,7 @@
 
             <!-- Navigation Bar -->
             <header class='header'>
-                <nav class="navbar">
+                <nav class="navbar flex-container">
                     <span id='brand'>Courtney Montgomery</span>
                     <ul class="nav">
                         <li>
@@ -73,16 +80,18 @@
 
             <div class="content">
 
-                <div class="section" id="about">
-                    <h1 class="heading">HI, I'M A FULL-STACK WEB DEVELOPER.</h1>
-                    <div class="profile">
+                <section class="section" id="about">
+                    <div class="section-header">
+                        <h1 class="heading">HI, I'M A FULL-STACK WEB DEVELOPER.</h1>
+                    </div>
+                    <div class="profile flex-container">
 
-                        <div class="profile-img">
+                        <div class="profile-img flex-content">
 
                             <img id="avatar" src="./public/assets/images/profile.JPG"
                                 alt="Courtney Montgomery profile picture">
                         </div>
-                        <div class="bio">
+                        <div class="bio flex-content">
                             <p class="description">
                                 I am a determined and motivated Full-Stack developer with a focus on creating clean,
                                 scalable web applications that provide competitive advantage. Eager to join a
@@ -94,51 +103,53 @@
                                 work can be viewed below.</p>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div class="section" id="skills">
+                <section class="section" id="skills">
                     <div class="section-header">
                         <h1 class="heading">Competencies</h1>
-                        <p class="description">I am most familiar with the MERN Stack - MongoDB, Express, React, Node -
-                            an am proficient in JavaScript, HTML and CSS. I have limited experience with PHP and Python,
+                        <p class="description">I am most familiar with the MERN Stack - MongoDB, Express, React,
+                            Node -
+                            an am proficient in JavaScript, HTML and CSS. I have experience with PHP and Python,
                             along with
                             various lower-level programming languages.
-                            In addition to the frameworks below, I have used the following technologies in my projects:
+                            In addition to the frameworks below, I have used the following technologies in my
+                            projects:
                             APIs, Handlebars, Redux, REST and RxJS & Observables.</p>
                     </div>
 
-                    <div class="technology">
-                        <div class="sub-section f-end">
+                    <div class="technology flex-container">
+                        <div class="sub-section front-end flex-content">
                             <h5 class="subheading">Front-End Technologies</h5>
                             <div class="fullstack" id='front-end'>
                                 <!-- Add front-end icons here using JavaScript-->
                             </div>
                         </div>
-                        <div class="sub-section b-end">
+                        <div class="sub-section flex-content back-end">
                             <h5 class="subheading">Back-End Technologies</h5>
                             <div class="fullstack" id='back-end'>
                                 <!-- Add back-end icons here using JavaScript-->
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div class="section" id="projects">
+                <section class="section" id="projects">
                     <div class="section-header">
                         <h1 class="heading">Portfolio</h1>
                         <p class="description">Checkout a few of my projects. Tools & technologies used, more details,
                             as
                             well as other projects can be found on my <a href='https://github.com/courtneydm'
-                                target='_blank' class='hover'>Github Page</a> My resume is available upon request.</p>
+                                target='_blank'>Github Page</a>. Resume is available upon request.</p>
                     </div>
 
                     <!-- PORTFOLIO LAYOUT -->
-                    <div class='projects' id='portfolio'>
+                    <div class='projects flex-container' id='portfolio'>
                         <!-- Add projects here using JavaScript-->
                     </div>
-                </div>
+                </section>
 
-                <div class="section" id="contact">
+                <section class="section" id="contact">
                     <div class="section-header">
                         <h1 class="heading">Let's Get In Touch</h1>
                         <p>Whether it be to collaborate on a project or an opportunity to join a development team, I
@@ -146,33 +157,33 @@
                             be reached via email. I look foward to hearing from you.</p>
                     </div>
 
-                    <div class="contact-info">
+                    <div class="contact-info flex-container">
 
                         <!-- SOCIAL MEDIA LINKS -->
-                        <div class="social-media">
-
-                            <img src="./public/assets/images/icons/gmail.svg" alt="Email " class="logo"
-                                id="social-media">
-                            <a href="mailto:courtney@courtneydm.tech" class='hover'>Courtney@courtneydm.tech
-                            </a>
-                            <br />
-
-                            <img src="./public/assets/images/icons/linkedin_circle.svg" alt="LinkedIn profile"
-                                class="logo" id="social-media">
-                            <a href='https://linkedin.com/in/courtneydm' target='_blank'
-                                class='hover'>LinkedIn.com/in/CourtneyDM</a>
-                            <br />
-
-                            <img src="./public/assets/images/icons/github_circle.svg" alt="Github profile" class="logo"
-                                id="social-media">
-                            <a href="https://github.com/CourtneyDM" target='_blank' class='hover'>
-                                Github.com/CourtneyDM
-                            </a>
-
+                        <div class="social-media flex-content">
+                            <div>
+                                <img src="./public/assets/images/icons/circle_email.svg" alt="Email " class="logo"
+                                    id="social-media">
+                                <a href="mailto:courtney@courtneydm.tech">Courtney@courtneydm.tech
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./public/assets/images/icons/circle_linkedin.svg" alt="LinkedIn profile"
+                                    class="logo" id="social-media">
+                                <a href='https://linkedin.com/in/courtneydm'
+                                    target='_blank'>LinkedIn.com/in/CourtneyDM</a>
+                            </div>
+                            <div>
+                                <img src="./public/assets/images/icons/circle_github.svg" alt="Github profile"
+                                    class="logo" id="social-media">
+                                <a href="https://github.com/CourtneyDM" target='_blank'>
+                                    Github.com/CourtneyDM
+                                </a>
+                            </div>
                         </div>
 
                         <!-- EMAIL FORM -->
-                        <div class='email-form'>
+                        <div class='email-form flex-content'>
 
                             <form action="https://formspree.io/courtney@courtneydm.tech" method="POST">
 
@@ -180,30 +191,30 @@
                                     <label for="name">Your Name: </label>
                                     <br />
                                     <input class="input-control" type="text" name="name" id="name"
-                                        placeholder="'Johnny Appleseed'">
+                                        placeholder="'Johnny Appleseed'" size=60>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="email">Your Email: </label>
                                     <br />
                                     <input class="input-control" type="email" name="_replyTo" id="email"
-                                        placeholder="'john_appleseed@email.com'">
+                                        placeholder="'john_appleseed@email.com'" size=60>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="message">Message: </label>
                                     <br />
-                                    <textarea class="input-control" name="message" id="message" rows="5"
-                                        placeholder="Your message here..."></textarea>
+                                    <textarea class="input-control" name="message" id="message"
+                                        placeholder="Your message here..." rows="5"></textarea>
                                 </div>
 
                                 <button class="button" type="submit" value="Send">Send Message</button>
                             </form>
-
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
+
 
             <footer class='footer'>
                 <div>
@@ -211,8 +222,10 @@
                 </div>
             </footer>
         </div>
-        <script src="./public/assets/js/frontEndIcons.js"></script>
-        <script src="./public/assets/js/backEndIcons.js"></script>
+
+        <!-- JavaScript files -->
+        <script src="./public/assets/js/icons-frontend.js"></script>
+        <script src="./public/assets/js/icons-backend.js"></script>
         <script src="./public/assets/js/portfolio.js"></script>
         <script src="./public/assets/js/script.js"></script>
     </body>

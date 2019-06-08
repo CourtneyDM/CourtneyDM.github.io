@@ -3,7 +3,7 @@ const projects = [
 		title: "Waste Not",
 		img: "public/assets/images/projects/waste_not.jpg",
 		caption:
-			"A platform to help educated the community about preserving food and fighting hunger. Our purpose is to bridge the gap between food waste by hunger by managing your food inventory and connecting with non-profit organizations to distribute overage of food where needed.",
+			"A platform to help educate the community about preserving food and fighting hunger. Our purpose is to bridge the gap between food waste by hunger by managing your food inventory and connecting with non-profit organizations to distribute overage of food where needed.",
 		url: "https://waste-not-dallas.herokuapp.com"
 	},
 	{
@@ -26,19 +26,19 @@ const projects = [
 		caption:
 			"A talk-to-speech companion that takes the URL of an article, converts it to readable text and then plays back the article.",
 		url: "https://harkup.herokuapp.com"
-	},
-	{
-		title: "Memory Challenge",
-		img: "public/assets/images/projects/memory_challenge.jpg",
-		caption:
-			"An interactive game that tests your memory skills. Up for a challenge? Click the image to see if you can get a perfect score!",
-		url: "https://domino-memory-challenge.herokuapp.com"
-	},
-	{
-		title: "Crystals Game",
-		img: "public/assets/images/projects/crystals_game.jpg",
-		caption:
-			"A fun, interactive game where you gather enough crystals without going over the randomly generated target score.",
-		url: "https://courtneydm.github.io/game-crystals"
 	}
+	// {
+	// 	title: "Memory Challenge",
+	// 	img: "public/assets/images/projects/memory_challenge.jpg",
+	// 	caption:
+	// 		"An interactive game that tests your memory skills. Up for a challenge? Click the image to see if you can get a perfect score!",
+	// 	url: "https://domino-memory-challenge.herokuapp.com"
+	// },
+	// {
+	// 	title: "Crystals Game",
+	// 	img: "public/assets/images/projects/crystals_game.jpg",
+	// 	caption:
+	// 		"A fun, interactive game where you gather enough crystals without going over the randomly generated target score.",
+	// 	url: "https://courtneydm.github.io/game-crystals"
+	// }
 ];
