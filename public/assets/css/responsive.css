@@ -70,7 +70,9 @@
 @media screen and (min-width: 1080px) and (max-width: 1200px) {
 	p,
 	a,
-	label {
+	label,
+	.input-control,
+	button {
 		font-size: 16px;
 	}
 	#avatar {
@@ -91,7 +93,9 @@
 @media screen and (min-width: 960px) and (max-width: 1080px) {
 	p,
 	a,
-	label {
+	label,
+	.input-control,
+	button {
 		font-size: 16px;
 	}
 
@@ -135,7 +139,9 @@
 @media screen and (min-width: 768px) and (max-width: 960px) {
 	p,
 	a,
-	label {
+	label,
+	.input-control,
+	button {
 		font-size: 16px;
 	}
 
