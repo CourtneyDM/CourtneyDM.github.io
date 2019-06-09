@@ -25,6 +25,7 @@ $(document).ready(function() {
 	});
 });
 
+// Create a hamburger menu for small viewing screens
 mobileNavbar = () => {
 	let x = document.querySelector("#nav");
 	if (x.className === "nav") {
