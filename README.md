@@ -1,4 +1,4 @@
-<img src="https://courtneydm.github.io/public/assets/images/profile.JPG" alt="Courtney Montgomery Profile Pic" width="250px"/>
+<img src="https://github.com/CourtneyDM/courtneydm.tech/blob/master/public/assets/images/profile.JPG" alt="Courtney Montgomery Profile Pic" width="250px"/>
 
 # Who am I
 
