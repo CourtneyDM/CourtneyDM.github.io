@@ -1,0 +1,364 @@
+:root {
+  --blue: #0049e8e7;
+  --box-shadow: 10px 10px 25px #808080;
+  --font-family-default: "Monda", sans-serif;
+  --font-heading: "Economica", sans-serif;
+  --font-size-default: 62.5%;
+  --content-font-size: 1.8rem;
+  --grey: #808080;
+  --font-heading-size: 2rem;
+  --height: 60px;
+  --lightgrey: #b6b6b6;
+  --orange: #ff7200;
+  --text-shadow: 10px 10px 25px #000;
+  --white: #e5f2ee;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-default);
+  letter-spacing: 0.03rem;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.flex_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site__header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  background-color: var(--orange);
+  color: var(--white);
+  height: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 0.5rem;
+  padding: 2.5rem 10rem;
+  position: fixed;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.site__header .navbar__heading {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.site__header .navbar__nav {
+  list-style-type: none;
+}
+
+.site__header .navbar__nav .navbar__list_item {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.site__header .navbar__nav .navbar__list_item:hover {
+  color: var(--blue);
+  text-shadow: var(--text-shadow);
+}
+
+.hero__section {
+  width: 80%;
+  margin: auto;
+  padding: 15rem 0 10rem;
+  border-bottom: 0.2rem solid var(--grey);
+}
+
+.hero__section .hero__heading {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+.hero__section .hero__content {
+  padding-top: 5rem;
+}
+
+.hero__section .hero__content .hero__img {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  height: auto;
+  width: 30rem;
+}
+
+.hero__section .hero__content .content__default_font {
+  font-size: var(--content-font-size);
+  padding-left: 2rem;
+  position: absolute;
+  left: 35rem;
+  top: 7rem;
+}
+
+.skills__section {
+  width: 80%;
+  margin: auto;
+  padding: 7rem 0 5rem;
+  border-bottom: 0.2rem solid var(--grey);
+}
+
+.skills__section .skills__heading {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+.skills__section .skills__content {
+  padding-top: 5rem;
+}
+
+.skills__section .skills__content .content__default_font {
+  font-size: var(--content-font-size);
+  padding-left: 4rem;
+}
+
+.skills__section .skills__content .skills__full_stack {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__front_end {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__front_end .front_end_heading {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  padding: 2rem 0;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__front_end .front_end_logos {
+  padding: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__front_end .front_end_logos .front_end_logo {
+  height: auto;
+  width: 8rem;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__back_end {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__back_end .back_end_heading {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  padding: 2rem 0;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__back_end .back_end_logos {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.skills__section .skills__content .skills__full_stack .skills__back_end .back_end_logos .back_end_logo {
+  height: auto;
+  width: 8rem;
+}
+
+.portfolio__section {
+  width: 80%;
+  margin: auto;
+  padding: 7rem 0 5rem;
+  border-bottom: 0.2rem solid var(--grey);
+}
+
+.portfolio__section .portfolio__heading {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+.portfolio__section .portfolio__content {
+  padding-top: 5rem;
+}
+
+.portfolio__section .portfolio__content .content__default_font {
+  font-size: var(--content-font-size);
+  padding-left: 4rem;
+}
+
+.portfolio__section .portfolio__content .content__default_font a {
+  text-decoration: none;
+  color: var(--orange);
+  font-size: var(--content-font-size);
+}
+
+.portfolio__section .portfolio__content .content__default_font a:hover {
+  color: var(--blue);
+  text-shadow: var(--text-shadow);
+}
+
+.portfolio__section .portfolio__content .portfolio__projects {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.portfolio__section .portfolio__content .portfolio__projects .portfolio__project {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.portfolio__section .portfolio__content .portfolio__projects .portfolio__project .project__heading {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.portfolio__section .portfolio__content .portfolio__projects .portfolio__project .project__img {
+  height: auto;
+  text-align: center;
+  width: 40rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.portfolio__section .portfolio__content .portfolio__projects .portfolio__project .project__caption {
+  word-wrap: break-word;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1.4rem;
+}
+
+.contact__section {
+  width: 80%;
+  margin: auto;
+  padding: 7rem 0 5rem;
+  border-bottom: 0.2rem solid var(--grey);
+}
+
+.contact__section .contact__heading {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+.contact__section .contact__content .content__default_font {
+  font-size: var(--content-font-size);
+  padding-left: 4rem;
+}
+
+.contact__section .contact__content .contact__option {
+  padding: 1.2rem;
+}
+
+.contact__section .contact__content .contact__option .contact__links {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact__section .contact__content .contact__option .contact__links .contact__details .contact__icon {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  height: auto;
+  vertical-align: middle;
+  width: 9rem;
+}
+
+.contact__section .contact__content .contact__option .contact__links a {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.contact__section .contact__content .contact__option .contact__links a:hover {
+  color: var(--blue);
+  text-shadow: var(--text-shadow);
+}
+
+.contact__section .contact__content .contact__option .contact__form .contact__form_button {
+  background-color: var(--orange);
+  border-radius: 4px;
+  color: var(--white);
+  font-size: 1.8rem;
+  line-height: 2rem;
+  padding: 1rem 0.5rem;
+}
+
+.contact__section .contact__content .contact__option .contact__form .contact__form_button:hover {
+  color: var(--blue);
+  text-shadow: var(--text-shadow);
+}
+
+.site__footer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.site__footer .content__default_font {
+  color: var(--white);
+}
+
+.site__footer .content__default_font a {
+  color: var(--white);
+}
+
+.site__footer .content__default_font a:hover {
+  color: var(--blue);
+  text-shadow: var(--text-shadow);
+}
+/*# sourceMappingURL=main.css.map */
